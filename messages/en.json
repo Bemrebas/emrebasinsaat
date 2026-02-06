@@ -1,0 +1,280 @@
+{
+  "meta": {
+    "title": "Emrebas Construction & Mining | Yozgat Yerköy Excavation Sand Quarry",
+    "description": "Emrebas Construction & Mining - Over 20 years of experience in excavation, sand quarry, gravel sales, stone crushing, transportation and construction services in Yozgat Yerköy.",
+    "keywords": "Yozgat excavation, Yerköy sand quarry, gravel sales, sand sales, stone crushing, construction materials, aggregate, Yozgat construction"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "products": "Products",
+    "fleet": "Fleet",
+    "projects": "Projects",
+    "contact": "Contact",
+    "callUs": "Call Us",
+    "language": "Language"
+  },
+  "hero": {
+    "title": "Emrebas Construction & Mining",
+    "subtitle": "Strong Infrastructure, Lasting Legacy",
+    "description": "Your reliable partner in excavation, sand quarry, gravel production and construction with over 20 years of experience.",
+    "getQuote": "Get a Quote",
+    "callUs": "Call Us"
+  },
+  "featuredServices": {
+    "title": "Our Featured Services",
+    "subtitle": "Professional solutions at your service",
+    "sand": {
+      "title": "Sand, Gravel & Crushed Stone Sales",
+      "description": "We offer quality sand, gravel and crushed stone products from our quarry wholesale and retail. We produce aggregates in all sizes."
+    },
+    "excavation": {
+      "title": "Excavation & Machine Rental",
+      "description": "Excavation services including digging, filling, land grading with our excavators, loaders and trucks. Operated and non-operated rental available."
+    },
+    "construction": {
+      "title": "Construction Services",
+      "description": "Comprehensive solutions for residential construction and infrastructure projects. Foundation, rough construction and finishing works."
+    },
+    "learnMore": "Learn More"
+  },
+  "products": {
+    "title": "Our Products",
+    "subtitle": "Quality aggregate products from our sand quarry",
+    "pageTitle": "Our Products",
+    "pageSubtitle": "Quality aggregate products from our sand quarry and stone crushing plant",
+    "getQuote": "Get Price Quote",
+    "usageAreas": "Usage Areas",
+    "items": {
+      "sand": {
+        "name": "0-3mm Sand",
+        "description": "Fine sand, ideal for plastering and mortar work. High quality, screened sand.",
+        "usage": "Plastering, mortar making, concrete production, ground filling"
+      },
+      "gravel7": {
+        "name": "7-15mm Gravel",
+        "description": "Medium gravel, suitable for concrete production and road construction.",
+        "usage": "Concrete production, road infrastructure, drainage systems, landscaping"
+      },
+      "gravel15": {
+        "name": "15-30mm Gravel",
+        "description": "Large gravel, preferred for road construction and infrastructure projects.",
+        "usage": "Road construction, infrastructure projects, railway ballast, filling material"
+      },
+      "rubble": {
+        "name": "Oversize Rubble",
+        "description": "Coarse material remaining above the screen, used in filling and stabilization.",
+        "usage": "Filling works, stabilized road, land arrangement, foundation reinforcement"
+      },
+      "crushed": {
+        "name": "Crushed Materials",
+        "description": "Custom-sized crushed stone material, produced according to your project needs.",
+        "usage": "Special projects, decorative use, gabion filling, retaining wall"
+      }
+    }
+  },
+  "stats": {
+    "title": "Emrebas in Numbers",
+    "years": "Years Experience",
+    "projects": "Completed Projects",
+    "vehicles": "Vehicles/Machines",
+    "clients": "Happy Clients"
+  },
+  "references": {
+    "title": "Our References",
+    "subtitle": "Trusted business partnerships",
+    "municipalities": "Municipalities",
+    "municipalitiesDesc": "Collaboration on infrastructure and superstructure projects with municipalities in Yozgat and surrounding provinces",
+    "infrastructure": "City Infrastructure Projects",
+    "infrastructureDesc": "Material supply and excavation services for road construction, sewerage and water network projects",
+    "solar": "Solar Power Plants",
+    "solarDesc": "Solar Power Plant site preparation, excavation and leveling works"
+  },
+  "cta": {
+    "title": "Call Now for a Price Quote",
+    "description": "Contact us for the best price quote for sand, gravel, excavation and all our services.",
+    "phone": "0543 809 38 97",
+    "orContact": "or fill out our online quote form",
+    "contactForm": "Contact Form"
+  },
+  "about": {
+    "pageTitle": "About Us",
+    "pageSubtitle": "A trusted name in the industry for over 20 years",
+    "story": {
+      "title": "Our Story",
+      "p1": "Emrebas Construction & Mining was founded in the early 2000s as a small excavation company in Yozgat Yerköy. Since its establishment, our continuously growing company has become one of the most established and reliable excavation and mining firms in the region.",
+      "p2": "With our sand quarry and stone crushing plant producing aggregates of all sizes, our company offers comprehensive services in excavation, transportation and construction with a wide fleet of vehicles and machinery.",
+      "p3": "We continue to serve with over 20 years of experience, more than 50 successfully completed projects and a customer satisfaction-oriented work approach."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "text": "To complete our customers' projects on time and within budget with quality materials and reliable service. To work with the highest standards of occupational safety and environmental awareness in every project."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "text": "To be a pioneer in the industry with modern technology and our professional team as the largest and most reliable excavation and mining company in the region."
+    },
+    "values": {
+      "title": "Our Values",
+      "reliability": "Reliability",
+      "reliabilityDesc": "Our approach, faithful to our word and reliable in our work",
+      "quality": "Quality",
+      "qualityDesc": "The highest quality standards in every project",
+      "delivery": "Timely Delivery",
+      "deliveryDesc": "Guarantee of timely project delivery",
+      "satisfaction": "Customer Satisfaction",
+      "satisfactionDesc": "Customer satisfaction is our highest priority"
+    }
+  },
+  "services": {
+    "pageTitle": "Our Services",
+    "pageSubtitle": "Adding value to your projects with our comprehensive service range",
+    "quarry": {
+      "title": "Sand Quarry & Stone Crushing Plant",
+      "description": "We produce aggregates of all sizes with our sand screening and stone crushing plant. We provide wholesale and retail material supply for construction, road building and infrastructure projects.",
+      "features": ["0-3mm Sand production and sales", "7-15mm Gravel production", "15-30mm Gravel production", "Oversize Rubble", "Custom-sized crushed materials", "Wholesale and retail sales"]
+    },
+    "excavation": {
+      "title": "Excavation Services",
+      "description": "We offer excavation services of all scales with our professional team and modern equipment.",
+      "features": ["Digging and filling works", "Land grading and leveling", "Infrastructure excavation", "Solar power plant site preparation", "Channel digging and pipe laying", "Demolition and dismantling"]
+    },
+    "rental": {
+      "title": "Construction Equipment & Truck Rental",
+      "description": "We provide construction equipment and truck rental services with our extensive fleet.",
+      "features": ["3 Excavators", "2 Loaders", "3 Trucks", "1 Semi-trailer", "1 Pool Trailer", "1 Lowbed"],
+      "note": "Operated and non-operated rental options available."
+    },
+    "transport": {
+      "title": "Transportation Services",
+      "description": "We safely carry out all kinds of material transportation.",
+      "features": ["Sand, gravel, crushed stone transportation", "Excavation transportation", "Heavy load transportation (lowbed)", "Intra-city and inter-city transportation"]
+    },
+    "construction": {
+      "title": "Construction Services",
+      "description": "We create quality living spaces with residential construction and completed projects.",
+      "features": ["Residential construction", "Foundation and rough construction", "Infrastructure and superstructure works", "Project management"]
+    },
+    "getQuote": "Get a Quote"
+  },
+  "fleet": {
+    "pageTitle": "Our Vehicle & Machine Fleet",
+    "pageSubtitle": "At your service with our modern and well-maintained fleet",
+    "all": "All",
+    "excavators": "Excavation Machines",
+    "transport": "Transport Vehicles",
+    "rentQuote": "Get Rental Quote",
+    "items": {
+      "excavator": {
+        "name": "Excavator",
+        "count": "3 Units",
+        "capacity": "Various tonnage excavation capacity",
+        "category": "excavators"
+      },
+      "loader": {
+        "name": "Loader",
+        "count": "2 Units",
+        "capacity": "Loading and carrying capacity",
+        "category": "excavators"
+      },
+      "truck": {
+        "name": "Truck",
+        "count": "3 Units",
+        "capacity": "Excavation and material transportation",
+        "category": "transport"
+      },
+      "semi": {
+        "name": "Semi-trailer",
+        "count": "1 Unit",
+        "capacity": "Long distance heavy load transportation",
+        "category": "transport"
+      },
+      "poolTrailer": {
+        "name": "Pool Trailer",
+        "count": "1 Unit",
+        "capacity": "Bulk material transportation",
+        "category": "transport"
+      },
+      "lowbed": {
+        "name": "Lowbed",
+        "count": "1 Unit",
+        "capacity": "Construction equipment and heavy load transportation",
+        "category": "transport"
+      }
+    }
+  },
+  "projectsPage": {
+    "pageTitle": "Our Projects",
+    "pageSubtitle": "Examples of our successfully completed projects",
+    "all": "All",
+    "excavation": "Excavation",
+    "infrastructure": "Infrastructure",
+    "construction": "Construction",
+    "solar": "Solar Projects",
+    "items": [
+      { "name": "Yerköy Municipality Road Construction", "category": "infrastructure", "description": "5 km road infrastructure and superstructure work in Yerköy district center" },
+      { "name": "Solar Plant Site Preparation - Yozgat", "category": "solar", "description": "Leveling and preparation of 50 acres for solar power plant" },
+      { "name": "Residential Construction Project", "category": "construction", "description": "12-unit residential construction project in Yerköy" },
+      { "name": "Sewerage Infrastructure Excavation", "category": "infrastructure", "description": "Yerköy central sewerage line excavation and laying works" },
+      { "name": "Land Arrangement Project", "category": "excavation", "description": "30-acre land leveling for industrial zone" },
+      { "name": "Solar Plant Project - Kırşehir", "category": "solar", "description": "25 MW solar power plant site preparation in Kırşehir" },
+      { "name": "Gravel Supply and Transportation", "category": "excavation", "description": "10,000 tons of gravel supply and transportation for road construction" },
+      { "name": "Foundation Excavation Works", "category": "construction", "description": "Factory building foundation excavation and earthwork" },
+      { "name": "Water Network Infrastructure", "category": "infrastructure", "description": "Village road water network excavation and pipe laying" },
+      { "name": "Mass Housing Excavation", "category": "excavation", "description": "Excavation and land arrangement for 200-unit housing area" },
+      { "name": "Agricultural Irrigation Canal", "category": "infrastructure", "description": "15 km irrigation canal excavation and arrangement" },
+      { "name": "Solar Site Preparation - Yozgat 2", "category": "solar", "description": "35-acre solar plant site preparation in northern Yozgat" }
+    ]
+  },
+  "contact": {
+    "pageTitle": "Contact",
+    "pageSubtitle": "Reach out to us, let's find the best solution for your projects together",
+    "info": "Contact Information",
+    "phone1": "Phone 1",
+    "phone2": "Phone 2",
+    "email": "Email",
+    "address": "Address",
+    "addressText": "Yozgat/Yerköy Kızıl Gedik Factory Area, Ankara Road 5th km, Yerköy",
+    "hours": "Working Hours",
+    "hoursText": "Monday - Saturday: 07:00 - 19:00",
+    "formTitle": "Write to Us",
+    "name": "Your Full Name",
+    "phone": "Your Phone Number",
+    "emailField": "Your Email Address",
+    "service": "Select Service",
+    "serviceOptions": {
+      "sand": "Sand/Gravel Sales",
+      "excavation": "Excavation Service",
+      "rental": "Machine Rental",
+      "transport": "Transportation",
+      "construction": "Construction",
+      "other": "Other"
+    },
+    "message": "Your Message",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "success": "Your message has been sent successfully!",
+    "location": "Our Location"
+  },
+  "footer": {
+    "companyInfo": "Emrebas Construction & Mining has been providing excavation, sand quarry, gravel production and construction services in Yozgat and surrounding provinces for over 20 years.",
+    "quickLinks": "Quick Links",
+    "ourServices": "Our Services",
+    "contactInfo": "Contact",
+    "copyright": "Emrebas Construction & Mining © 2026. All rights reserved.",
+    "sandSales": "Sand & Gravel Sales",
+    "excavationService": "Excavation Services",
+    "machineRental": "Machine Rental",
+    "transportService": "Transportation Services",
+    "constructionService": "Construction Services"
+  },
+  "notFound": {
+    "title": "404 - Page Not Found",
+    "description": "The page you are looking for does not exist or has been moved.",
+    "backHome": "Back to Home"
+  },
+  "scrollTop": "Scroll to Top",
+  "darkMode": "Dark Mode",
+  "lightMode": "Light Mode"
+}

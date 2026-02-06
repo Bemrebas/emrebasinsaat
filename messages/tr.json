@@ -1,0 +1,280 @@
+{
+  "meta": {
+    "title": "Emrebaş İnşaat ve Madencilik | Yozgat Yerköy Hafriyat Kum Ocağı",
+    "description": "Emrebaş İnşaat ve Madencilik - Yozgat Yerköy'de 20+ yıllık tecrübe ile hafriyat, kum ocağı, mıcır satışı, taş kırma, nakliye ve inşaat hizmetleri. Kum, çakıl, mıcır toptan ve perakende satış.",
+    "keywords": "Yozgat hafriyat, Yerköy kum ocağı, mıcır satış, kum satış, taş kırma, hafriyat firması, inşaat malzemesi, kırılmış taş, agrega, Yozgat inşaat"
+  },
+  "nav": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "services": "Hizmetlerimiz",
+    "products": "Ürünlerimiz",
+    "fleet": "Araç Parkuru",
+    "projects": "Projelerimiz",
+    "contact": "İletişim",
+    "callUs": "Bizi Arayın",
+    "language": "Dil"
+  },
+  "hero": {
+    "title": "Emrebaş İnşaat ve Madencilik",
+    "subtitle": "Güçlü Altyapı, Kalıcı Eserler",
+    "description": "20 yılı aşkın tecrübemizle hafriyat, kum ocağı, mıcır üretimi ve inşaat sektöründe güvenilir çözüm ortağınız.",
+    "getQuote": "Teklif Al",
+    "callUs": "Bizi Arayın"
+  },
+  "featuredServices": {
+    "title": "Öne Çıkan Hizmetlerimiz",
+    "subtitle": "Profesyonel çözümlerimizle hizmetinizdeyiz",
+    "sand": {
+      "title": "Kum, Çakıl ve Mıcır Satışı",
+      "description": "Kum ocağımızdan üretilen kaliteli kum, çakıl ve mıcır ürünlerini toptan ve perakende olarak sunuyoruz. Her boyutta agrega üretimi yapıyoruz."
+    },
+    "excavation": {
+      "title": "Hafriyat ve Makine Kiralama",
+      "description": "Ekskavatör, loder ve kamyonlarımızla kazı, dolgu, arazi düzenleme ve hafriyat hizmetleri. Operatörlü ve operatörsüz kiralama."
+    },
+    "construction": {
+      "title": "İnşaat Hizmetleri",
+      "description": "Konut inşaatı ve altyapı projelerinde kapsamlı çözümler sunuyoruz. Temel atma, kaba inşaat ve tamamlama işleri."
+    },
+    "learnMore": "Detaylı Bilgi"
+  },
+  "products": {
+    "title": "Ürünlerimiz",
+    "subtitle": "Kum ocağımızdan üretilen kaliteli agrega ürünleri",
+    "pageTitle": "Ürünlerimiz",
+    "pageSubtitle": "Kum ocağı ve taş kırma tesisimizden üretilen kaliteli agrega ürünleri",
+    "getQuote": "Fiyat Teklifi Al",
+    "usageAreas": "Kullanım Alanları",
+    "items": {
+      "sand": {
+        "name": "0-3mm Kum",
+        "description": "İnce kum, sıva ve harç işleri için ideal. Yüksek kaliteli, elenmiş kum.",
+        "usage": "Sıva işleri, harç yapımı, beton üretimi, zemin dolgu"
+      },
+      "gravel7": {
+        "name": "7-15mm Mıcır",
+        "description": "Orta boy mıcır, beton üretimi ve yol yapım çalışmaları için uygun.",
+        "usage": "Beton üretimi, yol alt yapı, drenaj sistemleri, peyzaj"
+      },
+      "gravel15": {
+        "name": "15-30mm Mıcır",
+        "description": "Büyük boy mıcır, yol yapım ve altyapı projeleri için tercih edilir.",
+        "usage": "Yol yapımı, altyapı projeleri, demiryolu balast, dolgu malzemesi"
+      },
+      "rubble": {
+        "name": "Elek Üstü Moloz",
+        "description": "Elek üstü kalan kaba malzeme, dolgu ve stabilize işlerinde kullanılır.",
+        "usage": "Dolgu işleri, stabilize yol, arazi düzenleme, temel takviye"
+      },
+      "crushed": {
+        "name": "Kırılmış Malzemeler",
+        "description": "Özel boyutlarda kırılmış taş malzeme, proje ihtiyacınıza göre üretim.",
+        "usage": "Özel projeler, dekoratif kullanım, gabion dolgu, istinat duvarı"
+      }
+    }
+  },
+  "stats": {
+    "title": "Rakamlarla Emrebaş",
+    "years": "Yıl Tecrübe",
+    "projects": "Tamamlanan Proje",
+    "vehicles": "Araç/Makine",
+    "clients": "Mutlu Müşteri"
+  },
+  "references": {
+    "title": "Referanslarımız",
+    "subtitle": "Güvenilir iş ortaklıklarımız",
+    "municipalities": "Belediyeler",
+    "municipalitiesDesc": "Yozgat ve çevre illerdeki belediyelerle altyapı ve üstyapı projelerinde iş birliği",
+    "infrastructure": "Şehir Altyapı Projeleri",
+    "infrastructureDesc": "Yol yapım, kanalizasyon ve su şebekesi projelerinde malzeme tedariği ve hafriyat hizmeti",
+    "solar": "GES Tesisleri",
+    "solarDesc": "Güneş Enerjisi Santrali tesis alanı hazırlama, kazı ve düzleme çalışmaları"
+  },
+  "cta": {
+    "title": "Fiyat Teklifi Almak İçin Hemen Arayın",
+    "description": "Kum, mıcır, hafriyat ve tüm hizmetlerimiz için en uygun fiyat teklifini almak için bizi arayın.",
+    "phone": "0543 809 38 97",
+    "orContact": "veya online teklif formumuzu doldurun",
+    "contactForm": "İletişim Formu"
+  },
+  "about": {
+    "pageTitle": "Hakkımızda",
+    "pageSubtitle": "20 yılı aşkın tecrübe ile sektörün güvenilir ismi",
+    "story": {
+      "title": "Şirket Hikayemiz",
+      "p1": "Emrebaş İnşaat ve Madencilik, 2000'li yılların başında Yozgat Yerköy'de küçük bir hafriyat firması olarak kurulmuştur. Kuruluşundan bu yana sürekli büyüyen şirketimiz, bugün bölgenin en köklü ve güvenilir hafriyat ve madencilik firmalarından biri haline gelmiştir.",
+      "p2": "Kum ocağı ve taş kırma tesisimiz ile her boyutta agrega üretimi yapan şirketimiz, geniş araç ve makine parkuruyla hafriyat, nakliye ve inşaat sektöründe kapsamlı hizmetler sunmaktadır.",
+      "p3": "20 yılı aşkın tecrübemiz, 50'den fazla başarıyla tamamlanmış projemiz ve müşteri memnuniyeti odaklı çalışma anlayışımızla hizmet vermeye devam ediyoruz."
+    },
+    "mission": {
+      "title": "Misyonumuz",
+      "text": "Kaliteli malzeme ve güvenilir hizmet anlayışıyla müşterilerimizin projelerini zamanında ve bütçeye uygun şekilde tamamlamak. Her projede en yüksek standartlarda iş güvenliği ve çevre bilinci ile çalışmak."
+    },
+    "vision": {
+      "title": "Vizyonumuz",
+      "text": "Bölgenin en büyük ve en güvenilir hafriyat ve madencilik şirketi olarak, modern teknoloji ve profesyonel ekibimizle sektörde öncü olmak."
+    },
+    "values": {
+      "title": "Değerlerimiz",
+      "reliability": "Güvenilirlik",
+      "reliabilityDesc": "Sözümüze sadık, işimize güvenilir yaklaşımımız",
+      "quality": "Kalite",
+      "qualityDesc": "Her projede en yüksek kalite standartları",
+      "delivery": "Zamanında Teslimat",
+      "deliveryDesc": "Projelerin zamanında teslim edilmesi garantisi",
+      "satisfaction": "Müşteri Memnuniyeti",
+      "satisfactionDesc": "Müşterilerimizin memnuniyeti en büyük önceliğimiz"
+    }
+  },
+  "services": {
+    "pageTitle": "Hizmetlerimiz",
+    "pageSubtitle": "Kapsamlı hizmet yelpazemizle projelerinize değer katıyoruz",
+    "quarry": {
+      "title": "Kum Ocağı ve Taş Kırma Tesisi",
+      "description": "Kum eleme ve taş kırma tesisimizle her boyutta agrega üretimi yapıyoruz. İnşaat, yol yapım ve altyapı projelerine toptan ve perakende malzeme tedariği sağlıyoruz.",
+      "features": ["0-3mm Kum üretimi ve satışı", "7-15mm Mıcır üretimi", "15-30mm Mıcır üretimi", "Elek Üstü Moloz", "Özel boyutlarda kırılmış malzeme", "Toptan ve perakende satış"]
+    },
+    "excavation": {
+      "title": "Hafriyat Hizmetleri",
+      "description": "Profesyonel ekip ve modern ekipmanlarımızla her ölçekte hafriyat hizmeti sunuyoruz.",
+      "features": ["Kazı ve dolgu işleri", "Arazi düzenleme ve tesviye", "Altyapı kazı işleri", "GES tesis alanı hazırlama", "Kanal açma ve boru döşeme", "Yıkım ve söküm işleri"]
+    },
+    "rental": {
+      "title": "İş Makinesi ve Kamyon Kiralama",
+      "description": "Geniş araç filomuzla iş makinesi ve kamyon kiralama hizmeti veriyoruz.",
+      "features": ["3 Adet Ekskavatör", "2 Adet Loder", "3 Adet Kamyon", "1 Adet Tır", "1 Adet Havuz Dorse", "1 Adet Lowbed"],
+      "note": "Operatörlü ve operatörsüz kiralama seçenekleri mevcuttur."
+    },
+    "transport": {
+      "title": "Nakliye Hizmetleri",
+      "description": "Her türlü malzeme nakliyesini güvenle gerçekleştiriyoruz.",
+      "features": ["Kum, çakıl, mıcır nakliyesi", "Hafriyat nakliyesi", "Ağır yük taşımacılığı (lowbed)", "Şehir içi ve şehirler arası nakliye"]
+    },
+    "construction": {
+      "title": "İnşaat Hizmetleri",
+      "description": "Konut inşaatı ve tamamlanmış projelerimizle kaliteli yaşam alanları oluşturuyoruz.",
+      "features": ["Konut inşaatı", "Temel atma ve kaba inşaat", "Altyapı ve üstyapı işleri", "Proje yönetimi"]
+    },
+    "getQuote": "Teklif Al"
+  },
+  "fleet": {
+    "pageTitle": "Araç ve Makine Parkurumuz",
+    "pageSubtitle": "Modern ve bakımlı araç filomuzla hizmetinizdeyiz",
+    "all": "Tümü",
+    "excavators": "Kazı Makineleri",
+    "transport": "Nakliye Araçları",
+    "rentQuote": "Kiralama Teklifi Al",
+    "items": {
+      "excavator": {
+        "name": "Ekskavatör",
+        "count": "3 Adet",
+        "capacity": "Çeşitli tonajlarda kazı kapasitesi",
+        "category": "excavators"
+      },
+      "loader": {
+        "name": "Loder",
+        "count": "2 Adet",
+        "capacity": "Yükleme ve taşıma kapasitesi",
+        "category": "excavators"
+      },
+      "truck": {
+        "name": "Kamyon",
+        "count": "3 Adet",
+        "capacity": "Hafriyat ve malzeme taşıma",
+        "category": "transport"
+      },
+      "semi": {
+        "name": "Tır",
+        "count": "1 Adet",
+        "capacity": "Uzun mesafe ağır yük taşıma",
+        "category": "transport"
+      },
+      "poolTrailer": {
+        "name": "Havuz Dorse",
+        "count": "1 Adet",
+        "capacity": "Dökme malzeme taşıma",
+        "category": "transport"
+      },
+      "lowbed": {
+        "name": "Lowbed",
+        "count": "1 Adet",
+        "capacity": "İş makinesi ve ağır yük taşıma",
+        "category": "transport"
+      }
+    }
+  },
+  "projectsPage": {
+    "pageTitle": "Projelerimiz",
+    "pageSubtitle": "Başarıyla tamamladığımız projelerden örnekler",
+    "all": "Tümü",
+    "excavation": "Hafriyat",
+    "infrastructure": "Altyapı",
+    "construction": "İnşaat",
+    "solar": "GES Projeleri",
+    "items": [
+      { "name": "Yerköy Belediyesi Yol Yapım Projesi", "category": "infrastructure", "description": "Yerköy ilçe merkezinde 5 km yol altyapı ve üstyapı çalışması" },
+      { "name": "GES Tesis Alanı Hazırlama - Yozgat", "category": "solar", "description": "50 dönüm alanın güneş enerji santrali için düzleme ve hazırlık çalışması" },
+      { "name": "Konut İnşaatı Projesi", "category": "construction", "description": "Yerköy'de 12 daireli konut inşaatı projesi" },
+      { "name": "Kanalizasyon Altyapı Kazısı", "category": "infrastructure", "description": "Yerköy merkez kanalizasyon hattı kazı ve döşeme işleri" },
+      { "name": "Arazi Düzenleme Projesi", "category": "excavation", "description": "Sanayi bölgesi için 30 dönüm arazi tesviye çalışması" },
+      { "name": "GES Tesis Projesi - Kırşehir", "category": "solar", "description": "Kırşehir'de 25 MW güneş enerjisi santrali alan hazırlığı" },
+      { "name": "Mıcır Tedariği ve Nakliye", "category": "excavation", "description": "Yol yapım projesi için 10.000 ton mıcır tedariği ve nakliyesi" },
+      { "name": "Temel Kazı İşleri", "category": "construction", "description": "Fabrika binası temel kazı ve hafriyat işleri" },
+      { "name": "Su Şebekesi Altyapı Projesi", "category": "infrastructure", "description": "Köy yolları su şebekesi kazı ve boru döşeme çalışması" },
+      { "name": "Toplu Konut Hafriyat İşleri", "category": "excavation", "description": "200 konutluk toplu konut alanı hafriyat ve arazi düzenleme" },
+      { "name": "Tarımsal Sulama Kanalı", "category": "infrastructure", "description": "15 km sulama kanalı kazı ve düzenleme işleri" },
+      { "name": "GES Alan Hazırlığı - Yozgat 2", "category": "solar", "description": "Yozgat kuzey bölgesinde 35 dönüm GES alan hazırlığı" }
+    ]
+  },
+  "contact": {
+    "pageTitle": "İletişim",
+    "pageSubtitle": "Bize ulaşın, projeleriniz için en uygun çözümü birlikte bulalım",
+    "info": "İletişim Bilgileri",
+    "phone1": "Telefon 1",
+    "phone2": "Telefon 2",
+    "email": "E-posta",
+    "address": "Adres",
+    "addressText": "Yozgat/Yerköy Kızıl Gedik Fabrika Sahası Ankara Yolu 5.km Yerköy",
+    "hours": "Çalışma Saatleri",
+    "hoursText": "Pazartesi - Cumartesi: 07:00 - 19:00",
+    "formTitle": "Bize Yazın",
+    "name": "Adınız Soyadınız",
+    "phone": "Telefon Numaranız",
+    "emailField": "E-posta Adresiniz",
+    "service": "Hizmet Seçin",
+    "serviceOptions": {
+      "sand": "Kum/Mıcır Satış",
+      "excavation": "Hafriyat Hizmeti",
+      "rental": "Makine Kiralama",
+      "transport": "Nakliye",
+      "construction": "İnşaat",
+      "other": "Diğer"
+    },
+    "message": "Mesajınız",
+    "send": "Mesaj Gönder",
+    "sending": "Gönderiliyor...",
+    "success": "Mesajınız başarıyla gönderildi!",
+    "location": "Konumumuz"
+  },
+  "footer": {
+    "companyInfo": "Emrebaş İnşaat ve Madencilik, 20 yılı aşkın tecrübesiyle Yozgat ve çevre illerde hafriyat, kum ocağı, mıcır üretimi ve inşaat hizmetleri sunmaktadır.",
+    "quickLinks": "Hızlı Linkler",
+    "ourServices": "Hizmetlerimiz",
+    "contactInfo": "İletişim",
+    "copyright": "Emrebaş İnşaat ve Madencilik © 2026. Tüm hakları saklıdır.",
+    "sandSales": "Kum ve Mıcır Satışı",
+    "excavationService": "Hafriyat Hizmetleri",
+    "machineRental": "Makine Kiralama",
+    "transportService": "Nakliye Hizmetleri",
+    "constructionService": "İnşaat Hizmetleri"
+  },
+  "notFound": {
+    "title": "404 - Sayfa Bulunamadı",
+    "description": "Aradığınız sayfa mevcut değil veya taşınmış olabilir.",
+    "backHome": "Ana Sayfaya Dön"
+  },
+  "scrollTop": "Yukarı Çık",
+  "darkMode": "Karanlık Mod",
+  "lightMode": "Aydınlık Mod"
+}
