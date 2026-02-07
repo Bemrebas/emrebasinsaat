@@ -46,35 +46,48 @@
     },
     "title": "Our Products",
     "subtitle": "Quality aggregate products from our sand quarry",
-    "pageTitle": "Our Products",
-    "pageSubtitle": "Quality aggregate products from our sand quarry and stone crushing plant",
+    "pageTitle": "Sand, Gravel & Construction Materials",
+    "pageSubtitle": "Quality aggregate products from our Yozgat Yerköy sand quarry and stone crushing plant",
     "getQuote": "Get Price Quote",
+    "whatsappQuote": "Get Quote via WhatsApp",
     "usageAreas": "Usage Areas",
+    "sizeLabel": "Size",
+    "allProducts": "All Our Products",
     "items": {
       "sand": {
-        "name": "0-3mm Sand",
-        "description": "Fine sand, ideal for plastering and mortar work. High quality, screened sand.",
-        "usage": "Plastering, mortar making, concrete production, ground filling"
+        "name": "0-3mm Fine Sand",
+        "description": "Ideal fine sand for construction and plastering. High quality, clean and additive-free.",
+        "usage": "Plastering, fine concrete, joint filling, mortar making",
+        "alt": "0-3mm fine sand Yozgat - Emrebas Construction",
+        "size": "0-3mm"
       },
       "gravel7": {
-        "name": "7-15mm Gravel",
-        "description": "Medium gravel, suitable for concrete production and road construction.",
-        "usage": "Concrete production, road infrastructure, drainage systems, landscaping"
+        "name": "7-15mm Medium Gravel",
+        "description": "Standard-size gravel for concrete production and foundation filling.",
+        "usage": "Concrete production, ground filling, drainage, landscaping",
+        "alt": "7-15mm medium gravel Yozgat - Emrebas Construction",
+        "size": "7-15mm"
       },
       "gravel15": {
-        "name": "15-30mm Gravel",
-        "description": "Large gravel, preferred for road construction and infrastructure projects.",
-        "usage": "Road construction, infrastructure projects, railway ballast, filling material"
-      },
-      "rubble": {
-        "name": "Oversize Rubble",
-        "description": "Coarse material remaining above the screen, used in filling and stabilization.",
-        "usage": "Filling works, stabilized road, land arrangement, foundation reinforcement"
+        "name": "15-30mm Coarse Gravel",
+        "description": "Durable coarse gravel for heavy concrete and foundation works.",
+        "usage": "Heavy concrete, foundation filling, road construction, infrastructure projects",
+        "alt": "15-30mm coarse gravel Yozgat - Emrebas Construction",
+        "size": "15-30mm"
       },
       "crushed": {
-        "name": "Crushed Materials",
-        "description": "Custom-sized crushed stone material, produced according to your project needs.",
-        "usage": "Special projects, decorative use, gabion filling, retaining wall"
+        "name": "Crushed Stone",
+        "description": "High-strength crushed stone for road construction and stabilization.",
+        "usage": "Road sub-base, stabilization, foundation reinforcement, gabion filling",
+        "alt": "Crushed stone Yozgat - Emrebas Construction",
+        "size": "Custom"
+      },
+      "rubble": {
+        "name": "Construction Rubble",
+        "description": "Economical rubble material for filling and foundation works.",
+        "usage": "Land filling, sub-base, stabilization, land arrangement",
+        "alt": "Construction rubble Yozgat - Emrebas Construction",
+        "size": "30mm+"
       }
     }
   },

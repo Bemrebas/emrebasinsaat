@@ -42,39 +42,52 @@
   "products": {
     "meta": {
       "title": "Ürünlerimiz - Kum, Çakıl, Mıcır Satışı | Emrebaş İnşaat Yozgat",
-      "description": "Yozgat Yerköy'de kum ocağı ve taş kırma tesisimizden üretilen kaliteli kum, çakıl, mıcır ve agrega ürünleri. Toptan ve perakende satış."
+      "description": "Yozgat'ta kaliteli 0-3mm kum, 7-15mm ve 15-30mm çakıl, kırma taş satışı. Emrebaş İnşaat'tan hemen teklif alın!"
     },
     "title": "Ürünlerimiz",
     "subtitle": "Kum ocağımızdan üretilen kaliteli agrega ürünleri",
-    "pageTitle": "Ürünlerimiz",
-    "pageSubtitle": "Kum ocağı ve taş kırma tesisimizden üretilen kaliteli agrega ürünleri",
+    "pageTitle": "Kum, Çakıl ve İnşaat Malzemeleri",
+    "pageSubtitle": "Yozgat Yerköy kum ocağı ve taş kırma tesisimizden üretilen kaliteli agrega ürünleri",
     "getQuote": "Fiyat Teklifi Al",
+    "whatsappQuote": "WhatsApp ile Teklif Al",
     "usageAreas": "Kullanım Alanları",
+    "sizeLabel": "Boyut",
+    "allProducts": "Tüm Ürünlerimiz",
     "items": {
       "sand": {
-        "name": "0-3mm Kum",
-        "description": "İnce kum, sıva ve harç işleri için ideal. Yüksek kaliteli, elenmiş kum.",
-        "usage": "Sıva işleri, harç yapımı, beton üretimi, zemin dolgu"
+        "name": "0-3mm İnce Kum",
+        "description": "İnşaat ve sıva işleri için ideal ince kum. Yüksek kaliteli, temiz ve katkısız.",
+        "usage": "Sıva işleri, ince beton, derz dolgusu, harç yapımı",
+        "alt": "0-3mm ince kum Yozgat - Emrebaş İnşaat",
+        "size": "0-3mm"
       },
       "gravel7": {
-        "name": "7-15mm Mıcır",
-        "description": "Orta boy mıcır, beton üretimi ve yol yapım çalışmaları için uygun.",
-        "usage": "Beton üretimi, yol alt yapı, drenaj sistemleri, peyzaj"
+        "name": "7-15mm Orta Çakıl",
+        "description": "Beton üretimi ve temel dolgusu için standart ölçü çakıl.",
+        "usage": "Beton üretimi, zemin dolgusu, drenaj, peyzaj",
+        "alt": "7-15mm orta çakıl Yozgat - Emrebaş İnşaat",
+        "size": "7-15mm"
       },
       "gravel15": {
-        "name": "15-30mm Mıcır",
-        "description": "Büyük boy mıcır, yol yapım ve altyapı projeleri için tercih edilir.",
-        "usage": "Yol yapımı, altyapı projeleri, demiryolu balast, dolgu malzemesi"
-      },
-      "rubble": {
-        "name": "Elek Üstü Moloz",
-        "description": "Elek üstü kalan kaba malzeme, dolgu ve stabilize işlerinde kullanılır.",
-        "usage": "Dolgu işleri, stabilize yol, arazi düzenleme, temel takviye"
+        "name": "15-30mm İri Çakıl",
+        "description": "Ağır beton ve temel işleri için dayanıklı iri çakıl.",
+        "usage": "Ağır beton, temel dolgusu, yol yapımı, altyapı projeleri",
+        "alt": "15-30mm iri çakıl Yozgat - Emrebaş İnşaat",
+        "size": "15-30mm"
       },
       "crushed": {
-        "name": "Kırılmış Malzemeler",
-        "description": "Özel boyutlarda kırılmış taş malzeme, proje ihtiyacınıza göre üretim.",
-        "usage": "Özel projeler, dekoratif kullanım, gabion dolgu, istinat duvarı"
+        "name": "Kırma Taş",
+        "description": "Yol yapımı ve stabilize için yüksek mukavemetli kırma taş.",
+        "usage": "Yol altı dolgusu, stabilize, temel güçlendirme, gabion dolgu",
+        "alt": "Kırma taş Yozgat - Emrebaş İnşaat",
+        "size": "Özel"
+      },
+      "rubble": {
+        "name": "İnşaat Molozu",
+        "description": "Dolgu ve temel işleri için ekonomik moloz malzeme.",
+        "usage": "Arazi dolgusu, temel altı, stabilize, arazi düzenleme",
+        "alt": "İnşaat molozu Yozgat - Emrebaş İnşaat",
+        "size": "30mm+"
       }
     }
   },

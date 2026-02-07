@@ -65,33 +65,32 @@ export default function Header({ locale }: { locale: string }) {
       }`}
     >
       <div className="container-custom mx-auto flex items-center justify-between px-4">
-        {/* Logo */}
-        <Link
-          href="/"
-          className="flex-shrink-0 min-h-[50px] flex items-center"
-        >
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src="/images/logo.png"
-            alt="Emrebaş İnşaat - Kum Ocağı & Hafriyat"
-            width={200}
-            height={100}
-            style={{
-              display: "block",
-              visibility: "visible",
-              opacity: 1,
-              filter: isScrolled ? "none" : "brightness(0) invert(1)",
-              width: isScrolled ? undefined : undefined,
-            }}
-            className={`object-contain transition-all duration-300 h-auto ${
-              isScrolled
-                ? "w-[120px] md:w-[140px] dark:brightness-0 dark:invert"
-                : "w-[140px] md:w-[180px]"
-            }`}
-            loading="eager"
-            fetchPriority="high"
-          />
-        </Link>
+        {/* Logo - sadece scroll sonrası görünür */}
+        <div className="flex-shrink-0 min-h-[50px] flex items-center">
+          <AnimatePresence>
+            {isScrolled && (
+              <motion.div
+                initial={{ opacity: 0, scale: 0.8, x: -20 }}
+                animate={{ opacity: 1, scale: 1, x: 0 }}
+                exit={{ opacity: 0, scale: 0.8, x: -20 }}
+                transition={{ duration: 0.3, ease: "easeOut" }}
+              >
+                <Link href="/" className="block">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src="/images/logo.png"
+                    alt="Emrebaş İnşaat - Kum Ocağı & Hafriyat"
+                    width={140}
+                    height={70}
+                    className="object-contain h-auto w-[100px] md:w-[120px] dark:brightness-0 dark:invert"
+                    loading="eager"
+                    fetchPriority="high"
+                  />
+                </Link>
+              </motion.div>
+            )}
+          </AnimatePresence>
+        </div>
 
         {/* Desktop Nav */}
         <nav className="hidden lg:flex items-center gap-1">

@@ -24,23 +24,7 @@ export default function Footer() {
           {/* Company Info */}
           <div>
             <Link href="/" className="inline-block mb-4">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/images/logo.png"
-                alt="Emrebaş İnşaat - Kum Ocağı & Hafriyat"
-                width={180}
-                height={90}
-                style={{
-                  display: "block",
-                  visibility: "visible",
-                  opacity: 1,
-                  filter: "brightness(0) invert(1)",
-                  width: "160px",
-                  height: "auto",
-                }}
-                className="object-contain"
-                loading="eager"
-              />
+              <span className="text-white font-bold text-xl">Emrebaş İnşaat</span>
             </Link>
             <p className="text-gray-400 text-sm leading-relaxed mt-4">
               {t("companyInfo")}

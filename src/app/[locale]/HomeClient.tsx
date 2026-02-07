@@ -21,11 +21,11 @@ export default function HomeClient() {
   const t = useTranslations();
 
   const productItems = [
-    { key: "sand", gradient: "from-yellow-600 to-amber-500" },
-    { key: "gravel7", gradient: "from-gray-500 to-gray-600" },
-    { key: "gravel15", gradient: "from-stone-500 to-stone-600" },
-    { key: "rubble", gradient: "from-amber-700 to-yellow-800" },
-    { key: "crushed", gradient: "from-slate-500 to-slate-700" },
+    { key: "sand", gradient: "from-yellow-600 to-amber-500", image: "/images/products/0-3-kum.png" },
+    { key: "gravel7", gradient: "from-gray-500 to-gray-600", image: "/images/products/7-15-cakil.png" },
+    { key: "gravel15", gradient: "from-stone-500 to-stone-600", image: "/images/products/15-30-cakil.png" },
+    { key: "crushed", gradient: "from-slate-500 to-slate-700", image: "/images/products/kirmatas.png" },
+    { key: "rubble", gradient: "from-amber-700 to-yellow-800", image: "/images/products/moloz.png" },
   ];
 
   return (
@@ -52,7 +52,7 @@ export default function HomeClient() {
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
+            transition={{ duration: 0.8, delay: 0.15 }}
           >
             <span className="inline-block bg-accent/20 text-accent border border-accent/30 text-sm font-semibold px-4 py-1.5 rounded-full mb-6">
               20+ {t("stats.years")}
@@ -62,7 +62,7 @@ export default function HomeClient() {
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.15 }}
+            transition={{ duration: 0.8, delay: 0.3 }}
             className="text-4xl md:text-6xl lg:text-7xl font-extrabold text-white mb-4 leading-tight"
           >
             {t("hero.title")}
@@ -71,7 +71,7 @@ export default function HomeClient() {
           <motion.p
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.3 }}
+            transition={{ duration: 0.8, delay: 0.45 }}
             className="text-xl md:text-2xl text-accent font-semibold mb-4"
           >
             {t("hero.subtitle")}
@@ -80,7 +80,7 @@ export default function HomeClient() {
           <motion.p
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.45 }}
+            transition={{ duration: 0.8, delay: 0.6 }}
             className="text-base md:text-lg text-gray-300 max-w-2xl mx-auto mb-10"
           >
             {t("hero.description")}
@@ -89,7 +89,7 @@ export default function HomeClient() {
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.6 }}
+            transition={{ duration: 0.8, delay: 0.75 }}
             className="flex flex-col sm:flex-row gap-4 justify-center"
           >
             <Link href="/iletisim" className="btn-primary text-lg flex items-center justify-center gap-2">
@@ -202,8 +202,14 @@ export default function HomeClient() {
             {productItems.map((item, i) => (
               <ScrollAnimationWrapper key={item.key} delay={i * 0.1}>
                 <div className="card-base overflow-hidden group hover:-translate-y-1">
-                  <div className={`h-36 bg-gradient-to-br ${item.gradient} flex items-center justify-center relative overflow-hidden`}>
-                    <Mountain size={48} className="text-white/40 group-hover:scale-110 transition-transform" />
+                  <div className="h-36 relative overflow-hidden">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src={item.image}
+                      alt={t(`products.items.${item.key}.name`)}
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                      loading="lazy"
+                    />
                     <div className="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors" />
                   </div>
                   <div className="p-4">
