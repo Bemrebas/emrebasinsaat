@@ -61,23 +61,33 @@ export default function Header({ locale }: { locale: string }) {
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
           ? "bg-white/95 dark:bg-dark/95 backdrop-blur-md shadow-lg py-1"
-          : "bg-transparent py-3"
+          : "bg-black/30 backdrop-blur-sm py-3"
       }`}
     >
       <div className="container-custom mx-auto flex items-center justify-between px-4">
         {/* Logo */}
-        <Link href="/" className="flex-shrink-0 transition-all duration-300 min-h-[50px] flex items-center">
+        <Link
+          href="/"
+          className="flex-shrink-0 min-h-[50px] flex items-center"
+        >
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="/images/logo.png"
             alt="Emrebaş İnşaat - Kum Ocağı & Hafriyat"
             width={200}
             height={100}
-            className={`object-contain transition-all duration-300 ${
+            style={{
+              display: "block",
+              visibility: "visible",
+              opacity: 1,
+              filter: isScrolled ? "none" : "brightness(0) invert(1)",
+              width: isScrolled ? undefined : undefined,
+            }}
+            className={`object-contain transition-all duration-300 h-auto ${
               isScrolled
-                ? "w-[120px] md:w-[140px]"
+                ? "w-[120px] md:w-[140px] dark:brightness-0 dark:invert"
                 : "w-[140px] md:w-[180px]"
-            } ${!isScrolled ? "brightness-0 invert" : "dark:brightness-0 dark:invert"}`}
+            }`}
             loading="eager"
             fetchPriority="high"
           />

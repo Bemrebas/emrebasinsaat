@@ -30,7 +30,15 @@ export default function Footer() {
                 alt="Emrebaş İnşaat - Kum Ocağı & Hafriyat"
                 width={180}
                 height={90}
-                className="w-[160px] h-auto object-contain brightness-0 invert"
+                style={{
+                  display: "block",
+                  visibility: "visible",
+                  opacity: 1,
+                  filter: "brightness(0) invert(1)",
+                  width: "160px",
+                  height: "auto",
+                }}
+                className="object-contain"
                 loading="eager"
               />
             </Link>
