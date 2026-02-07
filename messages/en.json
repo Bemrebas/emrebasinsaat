@@ -16,9 +16,9 @@
     "language": "Language"
   },
   "hero": {
-    "title": "Emrebas Construction & Mining",
-    "subtitle": "Strong Infrastructure, Lasting Legacy",
-    "description": "Your reliable partner in excavation, sand quarry, gravel production and construction with over 20 years of experience.",
+    "title": "Yozgat's Trusted Sand Quarry & Excavation Company",
+    "subtitle": "Emrebas Construction & Mining",
+    "description": "Your reliable partner in excavation, sand quarry, gravel production, transportation and construction in Yozgat Yerköy with over 20 years of experience.",
     "getQuote": "Get a Quote",
     "callUs": "Call Us"
   },
@@ -40,6 +40,10 @@
     "learnMore": "Learn More"
   },
   "products": {
+    "meta": {
+      "title": "Our Products - Sand, Gravel, Crushed Stone | Emrebas Construction Yozgat",
+      "description": "Quality sand, gravel, crushed stone and aggregate products from our sand quarry and stone crushing plant in Yozgat Yerköy. Wholesale and retail sales."
+    },
     "title": "Our Products",
     "subtitle": "Quality aggregate products from our sand quarry",
     "pageTitle": "Our Products",
@@ -99,6 +103,10 @@
     "contactForm": "Contact Form"
   },
   "about": {
+    "meta": {
+      "title": "About Us - Emrebas Construction | Yozgat Yerköy",
+      "description": "Learn about Emrebas Construction & Mining. Over 40 years of commercial heritage and 20+ years of experience in excavation and sand quarry services in Yozgat Yerköy."
+    },
     "pageTitle": "About Us",
     "pageSubtitle": "Over 40 years of commercial heritage, 20+ years of industry expertise — your trusted partner",
     "story": {
@@ -129,6 +137,10 @@
     }
   },
   "services": {
+    "meta": {
+      "title": "Our Services - Sand Quarry, Excavation, Transport | Emrebas Construction",
+      "description": "Sand quarry operations, stone quarry, excavation, transportation and construction material supply. Yozgat's trusted partner Emrebas Construction."
+    },
     "pageTitle": "Our Services",
     "pageSubtitle": "Adding value to your projects with our comprehensive service range",
     "quarry": {
@@ -160,6 +172,10 @@
     "getQuote": "Get a Quote"
   },
   "fleet": {
+    "meta": {
+      "title": "Our Fleet - Construction Equipment Rental | Emrebas Construction Yozgat",
+      "description": "Excavator, loader, truck, semi-trailer and lowbed rental. Operated and non-operated construction equipment rental services in Yozgat Yerköy."
+    },
     "pageTitle": "Our Vehicle & Machine Fleet",
     "pageSubtitle": "At your service with our modern and well-maintained fleet",
     "all": "All",
@@ -206,6 +222,10 @@
     }
   },
   "projectsPage": {
+    "meta": {
+      "title": "Our Projects - Emrebas Construction Yozgat",
+      "description": "Successfully completed excavation, sand quarry, infrastructure and construction projects by Emrebas Construction over 20+ years in Yozgat and surrounding provinces."
+    },
     "pageTitle": "Our Projects",
     "pageSubtitle": "Examples of our successfully completed projects",
     "all": "All",
@@ -229,6 +249,10 @@
     ]
   },
   "contact": {
+    "meta": {
+      "title": "Contact - Emrebas Construction Yozgat | 0543 593 3566",
+      "description": "Contact us for sand, gravel, crushed stone and excavation needs in Yozgat Yerköy. Get a quote now! Phone: 0543 593 35 66"
+    },
     "pageTitle": "Contact",
     "pageSubtitle": "Reach out to us, let's find the best solution for your projects together",
     "info": "Contact Information",

@@ -16,9 +16,9 @@
     "language": "Dil"
   },
   "hero": {
-    "title": "Emrebaş İnşaat ve Madencilik",
-    "subtitle": "Güçlü Altyapı, Kalıcı Eserler",
-    "description": "20 yılı aşkın tecrübemizle hafriyat, kum ocağı, mıcır üretimi ve inşaat sektöründe güvenilir çözüm ortağınız.",
+    "title": "Yozgat'ın Güvenilir Kum Ocağı ve Hafriyat Firması",
+    "subtitle": "Emrebaş İnşaat ve Madencilik",
+    "description": "Yozgat Yerköy'de 20 yılı aşkın tecrübemizle hafriyat, kum ocağı, çakıl ve mıcır üretimi, nakliye ve inşaat sektöründe güvenilir çözüm ortağınız.",
     "getQuote": "Teklif Al",
     "callUs": "Bizi Arayın"
   },
@@ -40,6 +40,10 @@
     "learnMore": "Detaylı Bilgi"
   },
   "products": {
+    "meta": {
+      "title": "Ürünlerimiz - Kum, Çakıl, Mıcır Satışı | Emrebaş İnşaat Yozgat",
+      "description": "Yozgat Yerköy'de kum ocağı ve taş kırma tesisimizden üretilen kaliteli kum, çakıl, mıcır ve agrega ürünleri. Toptan ve perakende satış."
+    },
     "title": "Ürünlerimiz",
     "subtitle": "Kum ocağımızdan üretilen kaliteli agrega ürünleri",
     "pageTitle": "Ürünlerimiz",
@@ -99,6 +103,10 @@
     "contactForm": "İletişim Formu"
   },
   "about": {
+    "meta": {
+      "title": "Hakkımızda - Emrebaş İnşaat | Yozgat Yerköy Hafriyat",
+      "description": "Emrebaş İnşaat ve Madencilik hakkında bilgi edinin. 40+ yıllık ticari geçmiş ve 20+ yıllık sektör tecrübesiyle Yozgat Yerköy'de güvenilir hafriyat ve kum ocağı hizmetleri."
+    },
     "pageTitle": "Hakkımızda",
     "pageSubtitle": "40 yılı aşkın ticari geçmiş, 20+ yıl sektör tecrübesiyle güvenilir çözüm ortağınız",
     "story": {
@@ -129,6 +137,10 @@
     }
   },
   "services": {
+    "meta": {
+      "title": "Hizmetlerimiz - Kum Ocağı, Hafriyat, Nakliye | Emrebaş İnşaat",
+      "description": "Kum ocağı işletmeciliği, taş ocağı, hafriyat, nakliye ve inşaat malzemeleri tedariki. Yozgat'ın güvenilir çözüm ortağı Emrebaş İnşaat."
+    },
     "pageTitle": "Hizmetlerimiz",
     "pageSubtitle": "Kapsamlı hizmet yelpazemizle projelerinize değer katıyoruz",
     "quarry": {
@@ -160,6 +172,10 @@
     "getQuote": "Teklif Al"
   },
   "fleet": {
+    "meta": {
+      "title": "Araç Parkurumuz - İş Makinesi Kiralama | Emrebaş İnşaat Yozgat",
+      "description": "Ekskavatör, loder, kamyon, tır ve lowbed kiralama. Yozgat Yerköy'de operatörlü ve operatörsüz iş makinesi kiralama hizmetleri."
+    },
     "pageTitle": "Araç ve Makine Parkurumuz",
     "pageSubtitle": "Modern ve bakımlı araç filomuzla hizmetinizdeyiz",
     "all": "Tümü",
@@ -206,6 +222,10 @@
     }
   },
   "projectsPage": {
+    "meta": {
+      "title": "Projelerimiz - Emrebaş İnşaat Yozgat",
+      "description": "Emrebaş İnşaat olarak 20+ yıldır gerçekleştirdiğimiz başarılı hafriyat, kum ocağı, altyapı ve inşaat projeleri. Yozgat ve çevre illerde tamamlanan projelerimiz."
+    },
     "pageTitle": "Projelerimiz",
     "pageSubtitle": "Başarıyla tamamladığımız projelerden örnekler",
     "all": "Tümü",
@@ -229,6 +249,10 @@
     ]
   },
   "contact": {
+    "meta": {
+      "title": "İletişim - Emrebaş İnşaat Yozgat | 0543 593 3566",
+      "description": "Yozgat Yerköy'de kum, çakıl, mıcır ve hafriyat ihtiyaçlarınız için bize ulaşın. Hemen teklif alın! Telefon: 0543 593 35 66"
+    },
     "pageTitle": "İletişim",
     "pageSubtitle": "Bize ulaşın, projeleriniz için en uygun çözümü birlikte bulalım",
     "info": "İletişim Bilgileri",

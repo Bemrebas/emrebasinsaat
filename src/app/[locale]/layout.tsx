@@ -25,7 +25,7 @@ export async function generateMetadata({
     metadataBase: new URL("https://emrebasinsaat.com"),
     title: {
       default: t("title"),
-      template: `%s | Emrebaş İnşaat ve Madencilik`,
+      template: `%s | Emrebaş İnşaat`,
     },
     description: t("description"),
     keywords: t("keywords"),
@@ -42,16 +42,16 @@ export async function generateMetadata({
     openGraph: {
       title: t("title"),
       description: t("description"),
-      url: "https://emrebasinsaat.com",
+      url: locale === "tr" ? "https://emrebasinsaat.com" : `https://emrebasinsaat.com/${locale}`,
       siteName: "Emrebaş İnşaat ve Madencilik",
       locale: locale === "tr" ? "tr_TR" : locale === "en" ? "en_US" : "ar_SA",
       type: "website",
       images: [
         {
-          url: "/images/og-image.png",
+          url: "https://emrebasinsaat.com/images/og-image.png",
           width: 1200,
           height: 630,
-          alt: "Emrebaş İnşaat ve Madencilik - Kum Ocağı & Hafriyat",
+          alt: "Emrebaş İnşaat ve Madencilik - Yozgat Kum Ocağı & Hafriyat",
         },
       ],
     },
@@ -62,9 +62,9 @@ export async function generateMetadata({
       images: ["/images/og-image.png"],
     },
     alternates: {
-      canonical: "https://emrebasinsaat.com",
+      canonical: locale === "tr" ? "https://emrebasinsaat.com" : `https://emrebasinsaat.com/${locale}`,
       languages: {
-        tr: "https://emrebasinsaat.com/tr",
+        tr: "https://emrebasinsaat.com",
         en: "https://emrebasinsaat.com/en",
         ar: "https://emrebasinsaat.com/ar",
       },
@@ -92,22 +92,26 @@ export default async function LocaleLayout({
   const messages = await getMessages();
   const isRTL = locale === "ar";
 
-  const schemaData = {
+  const localBusinessSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
+    "@id": "https://emrebasinsaat.com/#business",
     name: "Emrebaş İnşaat ve Madencilik",
+    alternateName: "Emrebaş İnşaat - Kum Ocağı & Hafriyat",
     description:
-      "Yozgat Yerköy'de 20+ yıllık tecrübe ile hafriyat, kum ocağı, mıcır satışı, taş kırma, nakliye ve inşaat hizmetleri.",
+      "Yozgat Yerköy'de 40+ yıllık ticari geçmiş ve 20+ yıllık sektör tecrübesi ile hafriyat, kum ocağı, çakıl satışı, mıcır satışı, taş kırma, nakliye ve inşaat hizmetleri.",
     url: "https://emrebasinsaat.com",
     logo: "https://emrebasinsaat.com/images/logo.png",
     image: "https://emrebasinsaat.com/images/og-image.png",
     telephone: "+905435933566",
     email: "emrebastic@hotmail.com",
+    priceRange: "₺₺",
     address: {
       "@type": "PostalAddress",
       streetAddress: "Kızıl Gedik Fabrika Sahası Ankara Yolu 5.km",
       addressLocality: "Yerköy",
       addressRegion: "Yozgat",
+      postalCode: "66900",
       addressCountry: "TR",
     },
     geo: {
@@ -121,16 +125,60 @@ export default async function LocaleLayout({
       opens: "07:00",
       closes: "19:00",
     },
-    areaServed: ["Yozgat", "Yerköy", "Kırşehir", "Kırıkkale", "Ankara"],
-    serviceType: [
-      "Hafriyat",
-      "Kum Ocağı",
-      "Mıcır Satışı",
-      "Taş Kırma",
-      "Nakliye",
-      "İnşaat",
-      "İş Makinesi Kiralama",
+    areaServed: [
+      { "@type": "City", name: "Yozgat" },
+      { "@type": "City", name: "Yerköy" },
+      { "@type": "City", name: "Kırşehir" },
+      { "@type": "City", name: "Kırıkkale" },
+      { "@type": "City", name: "Ankara" },
     ],
+    hasOfferCatalog: {
+      "@type": "OfferCatalog",
+      name: "Hizmetlerimiz",
+      itemListElement: [
+        { "@type": "Offer", itemOffered: { "@type": "Service", name: "Kum Ocağı İşletmeciliği" } },
+        { "@type": "Offer", itemOffered: { "@type": "Service", name: "Hafriyat Hizmetleri" } },
+        { "@type": "Offer", itemOffered: { "@type": "Service", name: "Mıcır ve Çakıl Satışı" } },
+        { "@type": "Offer", itemOffered: { "@type": "Service", name: "Taş Kırma" } },
+        { "@type": "Offer", itemOffered: { "@type": "Service", name: "Nakliye Hizmetleri" } },
+        { "@type": "Offer", itemOffered: { "@type": "Service", name: "İnşaat Hizmetleri" } },
+        { "@type": "Offer", itemOffered: { "@type": "Service", name: "İş Makinesi Kiralama" } },
+      ],
+    },
+    sameAs: [],
+  };
+
+  const organizationSchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": "https://emrebasinsaat.com/#organization",
+    name: "Emrebaş İnşaat ve Madencilik",
+    url: "https://emrebasinsaat.com",
+    logo: "https://emrebasinsaat.com/images/logo.png",
+    contactPoint: {
+      "@type": "ContactPoint",
+      telephone: "+905435933566",
+      contactType: "customer service",
+      availableLanguage: ["Turkish", "English", "Arabic"],
+    },
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "Kızıl Gedik Fabrika Sahası Ankara Yolu 5.km",
+      addressLocality: "Yerköy",
+      addressRegion: "Yozgat",
+      postalCode: "66900",
+      addressCountry: "TR",
+    },
+  };
+
+  const websiteSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "https://emrebasinsaat.com/#website",
+    name: "Emrebaş İnşaat ve Madencilik",
+    url: "https://emrebasinsaat.com",
+    publisher: { "@id": "https://emrebasinsaat.com/#organization" },
+    inLanguage: ["tr", "en", "ar"],
   };
 
   return (
@@ -145,7 +193,15 @@ export default async function LocaleLayout({
         <link rel="manifest" href="/manifest.json" />
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
         />
       </head>
       <body className="antialiased min-h-screen bg-[var(--background)] text-[var(--foreground)]">
