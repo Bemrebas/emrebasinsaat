@@ -22,6 +22,7 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: "meta" });
 
   return {
+    metadataBase: new URL("https://emrebasinsaat.com"),
     title: {
       default: t("title"),
       template: `%s | Emrebaş İnşaat ve Madencilik`,
@@ -29,6 +30,15 @@ export async function generateMetadata({
     description: t("description"),
     keywords: t("keywords"),
     authors: [{ name: "Emrebaş İnşaat ve Madencilik" }],
+    icons: {
+      icon: [
+        { url: "/favicon.svg", type: "image/svg+xml" },
+      ],
+      apple: [
+        { url: "/images/logo.png" },
+      ],
+    },
+    manifest: "/manifest.json",
     openGraph: {
       title: t("title"),
       description: t("description"),
@@ -36,11 +46,20 @@ export async function generateMetadata({
       siteName: "Emrebaş İnşaat ve Madencilik",
       locale: locale === "tr" ? "tr_TR" : locale === "en" ? "en_US" : "ar_SA",
       type: "website",
+      images: [
+        {
+          url: "/images/og-image.png",
+          width: 1200,
+          height: 630,
+          alt: "Emrebaş İnşaat ve Madencilik - Kum Ocağı & Hafriyat",
+        },
+      ],
     },
     twitter: {
       card: "summary_large_image",
       title: t("title"),
       description: t("description"),
+      images: ["/images/og-image.png"],
     },
     alternates: {
       canonical: "https://emrebasinsaat.com",
@@ -53,6 +72,9 @@ export async function generateMetadata({
     robots: {
       index: true,
       follow: true,
+    },
+    other: {
+      "msapplication-TileColor": "#1a237e",
     },
   };
 }
@@ -77,6 +99,8 @@ export default async function LocaleLayout({
     description:
       "Yozgat Yerköy'de 20+ yıllık tecrübe ile hafriyat, kum ocağı, mıcır satışı, taş kırma, nakliye ve inşaat hizmetleri.",
     url: "https://emrebasinsaat.com",
+    logo: "https://emrebasinsaat.com/images/logo.png",
+    image: "https://emrebasinsaat.com/images/og-image.png",
     telephone: "+905435933566",
     email: "emrebastic@hotmail.com",
     address: {
@@ -112,8 +136,12 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} dir={isRTL ? "rtl" : "ltr"} suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#1a237e" />
+        <meta name="msapplication-TileColor" content="#1a237e" />
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <link rel="apple-touch-icon" href="/images/logo.png" />
+        <link rel="manifest" href="/manifest.json" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}

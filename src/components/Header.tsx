@@ -5,7 +5,7 @@ import { useTranslations } from "next-intl";
 import { useTheme } from "next-themes";
 import { usePathname, useRouter } from "next/navigation";
 import { Link } from "@/i18n/navigation";
-import Logo from "./Logo";
+import Image from "next/image";
 import {
   Menu,
   X,
@@ -61,14 +61,25 @@ export default function Header({ locale }: { locale: string }) {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
-          ? "bg-white/95 dark:bg-dark/95 backdrop-blur-md shadow-lg py-2"
-          : "bg-transparent py-4"
+          ? "bg-white/95 dark:bg-dark/95 backdrop-blur-md shadow-lg py-1"
+          : "bg-transparent py-3"
       }`}
     >
       <div className="container-custom mx-auto flex items-center justify-between px-4">
         {/* Logo */}
-        <Link href="/" className="flex-shrink-0">
-          <Logo />
+        <Link href="/" className="flex-shrink-0 transition-all duration-300">
+          <Image
+            src="/images/logo.png"
+            alt="Emrebaş İnşaat - Kum Ocağı & Hafriyat"
+            width={200}
+            height={100}
+            className={`object-contain transition-all duration-300 ${
+              isScrolled
+                ? "w-[120px] md:w-[140px] h-auto"
+                : "w-[140px] md:w-[180px] h-auto"
+            } ${!isScrolled ? "brightness-0 invert" : "dark:brightness-0 dark:invert"}`}
+            priority
+          />
         </Link>
 
         {/* Desktop Nav */}

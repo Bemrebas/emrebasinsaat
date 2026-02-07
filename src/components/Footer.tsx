@@ -2,7 +2,7 @@
 
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
-import Logo from "./Logo";
+import Image from "next/image";
 import {
   Phone,
   Mail,
@@ -24,7 +24,15 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Company Info */}
           <div>
-            <Logo className="mb-4 brightness-0 invert" />
+            <Link href="/" className="inline-block mb-4">
+              <Image
+                src="/images/logo.png"
+                alt="Emrebaş İnşaat - Kum Ocağı & Hafriyat"
+                width={180}
+                height={90}
+                className="w-[160px] h-auto object-contain brightness-0 invert"
+              />
+            </Link>
             <p className="text-gray-400 text-sm leading-relaxed mt-4">
               {t("companyInfo")}
             </p>

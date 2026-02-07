@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a237e"/>
+      <stop offset="100%" stop-color="#000051"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="12" fill="url(#bg)"/>
+  <!-- Excavator simplified -->
+  <g transform="translate(8, 6) scale(0.094)">
+    <!-- Body -->
+    <rect x="120" y="300" width="200" height="80" rx="12" fill="#ff6f00"/>
+    <!-- Cabin -->
+    <rect x="220" y="240" width="90" height="70" rx="8" fill="#ffa040"/>
+    <rect x="230" y="250" width="50" height="40" rx="4" fill="#1a237e" opacity="0.3"/>
+    <!-- Arm -->
+    <rect x="145" y="180" width="30" height="130" rx="6" fill="#c43e00" transform="rotate(-15, 160, 310)"/>
+    <!-- Boom -->
+    <rect x="80" y="120" width="25" height="120" rx="5" fill="#ff6f00" transform="rotate(30, 92, 180)"/>
+    <!-- Bucket -->
+    <path d="M60 140 L30 180 L80 200 L100 160 Z" fill="#ffa040"/>
+    <path d="M30 180 L25 190 L35 195 L40 185 Z" fill="#c43e00"/>
+    <path d="M45 185 L40 195 L50 200 L55 190 Z" fill="#c43e00"/>
+    <path d="M60 190 L55 200 L65 205 L70 195 Z" fill="#c43e00"/>
+    <!-- Tracks -->
+    <rect x="110" y="380" width="220" height="50" rx="25" fill="#455a64"/>
+    <circle cx="145" cy="405" r="18" fill="#37474f"/>
+    <circle cx="200" cy="405" r="14" fill="#37474f"/>
+    <circle cx="250" cy="405" r="14" fill="#37474f"/>
+    <circle cx="300" cy="405" r="18" fill="#37474f"/>
+    <!-- Sand -->
+    <polygon points="350,380 420,320 490,380" fill="#ffa040" opacity="0.6"/>
+    <polygon points="380,380 440,330 500,380" fill="#ff6f00" opacity="0.4"/>
+  </g>
+  <!-- EB text -->
+  <text x="32" y="58" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-weight="900" font-size="12" fill="white" opacity="0.95">EB</text>
+</svg>
