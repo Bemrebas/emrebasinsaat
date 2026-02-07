@@ -149,7 +149,7 @@ export default function Header({ locale }: { locale: string }) {
 
           {/* Call Button - Desktop */}
           <a
-            href="tel:+905438093897"
+            href="tel:+905435933566"
             className="hidden md:flex items-center gap-2 bg-accent hover:bg-accent-dark text-white px-4 py-2 rounded-lg text-sm font-semibold transition-all duration-300 hover:scale-105"
           >
             <Phone size={16} />
@@ -195,11 +195,11 @@ export default function Header({ locale }: { locale: string }) {
                 </Link>
               ))}
               <a
-                href="tel:+905438093897"
+                href="tel:+905435933566"
                 className="flex items-center gap-2 mt-4 bg-accent text-white px-4 py-3 rounded-lg font-semibold justify-center"
               >
                 <Phone size={18} />
-                {t("callUs")}: 0543 809 38 97
+                {t("callUs")}: 0543 593 35 66
               </a>
             </nav>
           </motion.div>

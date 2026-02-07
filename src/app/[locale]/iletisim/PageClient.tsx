@@ -43,20 +43,7 @@ export default function PageClient() {
               <div>
                 <h2 className="text-2xl font-bold mb-8">{t("info")}</h2>
                 <div className="space-y-6">
-                  {/* Phone 1 */}
-                  <div className="flex items-start gap-4 group">
-                    <div className="w-12 h-12 rounded-xl bg-accent/10 flex items-center justify-center flex-shrink-0 group-hover:bg-accent group-hover:text-white transition-all">
-                      <Phone size={22} className="text-accent group-hover:text-white" />
-                    </div>
-                    <div>
-                      <p className="font-semibold">{t("phone1")}</p>
-                      <a href="tel:+905438093897" className="text-[var(--muted-foreground)] hover:text-accent transition-colors">
-                        0543 809 38 97
-                      </a>
-                    </div>
-                  </div>
-
-                  {/* Phone 2 */}
+                  {/* Phone */}
                   <div className="flex items-start gap-4 group">
                     <div className="w-12 h-12 rounded-xl bg-accent/10 flex items-center justify-center flex-shrink-0 group-hover:bg-accent group-hover:text-white transition-all">
                       <Phone size={22} className="text-accent group-hover:text-white" />

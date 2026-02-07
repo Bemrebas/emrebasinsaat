@@ -95,7 +95,7 @@ export default function HomeClient() {
             <Link href="/iletisim" className="btn-primary text-lg flex items-center justify-center gap-2">
               {t("hero.getQuote")} <ArrowRight size={20} />
             </Link>
-            <a href="tel:+905438093897" className="btn-outline text-lg flex items-center justify-center gap-2">
+            <a href="tel:+905435933566" className="btn-outline text-lg flex items-center justify-center gap-2">
               <Phone size={20} /> {t("hero.callUs")}
             </a>
           </motion.div>
@@ -310,7 +310,7 @@ export default function HomeClient() {
             <p className="text-white/80 mb-8 max-w-xl mx-auto">{t("cta.description")}</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:+905438093897"
+                href="tel:+905435933566"
                 className="bg-white text-accent hover:bg-gray-100 font-bold text-xl py-4 px-10 rounded-xl transition-all hover:scale-105 inline-flex items-center justify-center gap-3"
               >
                 <Phone size={24} /> {t("cta.phone")}

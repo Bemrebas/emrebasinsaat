@@ -77,7 +77,7 @@ export default async function LocaleLayout({
     description:
       "Yozgat Yerköy'de 20+ yıllık tecrübe ile hafriyat, kum ocağı, mıcır satışı, taş kırma, nakliye ve inşaat hizmetleri.",
     url: "https://emrebasinsaat.com",
-    telephone: ["+905438093897", "+905435933566"],
+    telephone: "+905435933566",
     email: "emrebastic@hotmail.com",
     address: {
       "@type": "PostalAddress",
