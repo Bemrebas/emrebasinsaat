@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "emrebasinsaat.vercel.app"
+        }
+      ],
+      "destination": "https://emrebasinsaat.com/:path*",
+      "permanent": true
+    }
+  ]
+}
