@@ -32,11 +32,11 @@ export default function HomeClient() {
     <>
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-primary via-primary-dark to-dark z-0">
-          <div className="absolute inset-0 opacity-10">
+        <div className="absolute inset-0 bg-gradient-to-br from-[#1b2838] via-[#0d1b2a] to-[#0a0e17] z-0">
+          <div className="absolute inset-0 opacity-15">
             <div className="absolute top-20 left-10 w-72 h-72 bg-accent rounded-full blur-3xl" />
-            <div className="absolute bottom-20 right-10 w-96 h-96 bg-primary-light rounded-full blur-3xl" />
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-accent/30 rounded-full blur-3xl" />
+            <div className="absolute bottom-20 right-10 w-96 h-96 bg-[#2a4a6b] rounded-full blur-3xl" />
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-accent/20 rounded-full blur-3xl" />
           </div>
           <div
             className="absolute inset-0 opacity-5"
@@ -228,10 +228,10 @@ export default function HomeClient() {
       </section>
 
       {/* Stats Section */}
-      <section className="py-20 bg-gradient-to-br from-primary via-primary-dark to-dark relative overflow-hidden">
-        <div className="absolute inset-0 opacity-10">
+      <section className="py-20 bg-gradient-to-br from-[#1b2838] via-[#0d1b2a] to-[#0a0e17] relative overflow-hidden">
+        <div className="absolute inset-0 opacity-15">
           <div className="absolute top-0 right-0 w-96 h-96 bg-accent rounded-full blur-3xl" />
-          <div className="absolute bottom-0 left-0 w-72 h-72 bg-primary-light rounded-full blur-3xl" />
+          <div className="absolute bottom-0 left-0 w-72 h-72 bg-[#2a4a6b] rounded-full blur-3xl" />
         </div>
         <div className="container-custom mx-auto px-4 relative z-10">
           <ScrollAnimationWrapper className="text-center mb-14">

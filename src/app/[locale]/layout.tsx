@@ -74,7 +74,7 @@ export async function generateMetadata({
       follow: true,
     },
     other: {
-      "msapplication-TileColor": "#1a237e",
+      "msapplication-TileColor": "#1b2838",
     },
   };
 }
@@ -137,8 +137,9 @@ export default async function LocaleLayout({
     <html lang={locale} dir={isRTL ? "rtl" : "ltr"} suppressHydrationWarning>
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="theme-color" content="#1a237e" />
-        <meta name="msapplication-TileColor" content="#1a237e" />
+        <meta name="theme-color" content="#1b2838" />
+        <link rel="preload" as="image" href="/images/logo.png" />
+        <meta name="msapplication-TileColor" content="#1b2838" />
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <link rel="apple-touch-icon" href="/images/logo.png" />
         <link rel="manifest" href="/manifest.json" />

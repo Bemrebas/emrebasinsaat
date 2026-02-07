@@ -2,7 +2,6 @@
 
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
-import Image from "next/image";
 import {
   Phone,
   Mail,
@@ -25,12 +24,14 @@ export default function Footer() {
           {/* Company Info */}
           <div>
             <Link href="/" className="inline-block mb-4">
-              <Image
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
                 src="/images/logo.png"
                 alt="Emrebaş İnşaat - Kum Ocağı & Hafriyat"
                 width={180}
                 height={90}
                 className="w-[160px] h-auto object-contain brightness-0 invert"
+                loading="eager"
               />
             </Link>
             <p className="text-gray-400 text-sm leading-relaxed mt-4">

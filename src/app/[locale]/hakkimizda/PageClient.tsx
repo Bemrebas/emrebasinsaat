@@ -17,7 +17,7 @@ export default function PageClient() {
   return (
     <>
       {/* Page Hero */}
-      <section className="relative pt-32 pb-20 bg-gradient-to-br from-primary via-primary-dark to-dark overflow-hidden">
+      <section className="relative pt-32 pb-20 bg-gradient-to-br from-[#1b2838] via-[#0d1b2a] to-[#0a0e17] overflow-hidden">
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-10 right-20 w-80 h-80 bg-accent rounded-full blur-3xl" />
           <div className="absolute bottom-10 left-20 w-60 h-60 bg-primary-light rounded-full blur-3xl" />
@@ -52,6 +52,7 @@ export default function PageClient() {
                 <p>{t("story.p1")}</p>
                 <p>{t("story.p2")}</p>
                 <p>{t("story.p3")}</p>
+                <p>{t("story.p4")}</p>
               </div>
             </ScrollAnimationWrapper>
           </div>

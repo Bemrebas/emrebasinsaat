@@ -5,7 +5,6 @@ import { useTranslations } from "next-intl";
 import { useTheme } from "next-themes";
 import { usePathname, useRouter } from "next/navigation";
 import { Link } from "@/i18n/navigation";
-import Image from "next/image";
 import {
   Menu,
   X,
@@ -67,18 +66,20 @@ export default function Header({ locale }: { locale: string }) {
     >
       <div className="container-custom mx-auto flex items-center justify-between px-4">
         {/* Logo */}
-        <Link href="/" className="flex-shrink-0 transition-all duration-300">
-          <Image
+        <Link href="/" className="flex-shrink-0 transition-all duration-300 min-h-[50px] flex items-center">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
             src="/images/logo.png"
             alt="Emrebaş İnşaat - Kum Ocağı & Hafriyat"
             width={200}
             height={100}
             className={`object-contain transition-all duration-300 ${
               isScrolled
-                ? "w-[120px] md:w-[140px] h-auto"
-                : "w-[140px] md:w-[180px] h-auto"
+                ? "w-[120px] md:w-[140px]"
+                : "w-[140px] md:w-[180px]"
             } ${!isScrolled ? "brightness-0 invert" : "dark:brightness-0 dark:invert"}`}
-            priority
+            loading="eager"
+            fetchPriority="high"
           />
         </Link>
 

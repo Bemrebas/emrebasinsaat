@@ -100,12 +100,13 @@
   },
   "about": {
     "pageTitle": "About Us",
-    "pageSubtitle": "A trusted name in the industry for over 20 years",
+    "pageSubtitle": "Over 40 years of commercial heritage, 20+ years of industry expertise — your trusted partner",
     "story": {
       "title": "Our Story",
-      "p1": "Emrebas Construction & Mining was founded in the early 2000s as a small excavation company in Yozgat Yerköy. Since its establishment, our continuously growing company has become one of the most established and reliable excavation and mining firms in the region.",
-      "p2": "With our sand quarry and stone crushing plant producing aggregates of all sizes, our company offers comprehensive services in excavation, transportation and construction with a wide fleet of vehicles and machinery.",
-      "p3": "We continue to serve with over 20 years of experience, more than 50 successfully completed projects and a customer satisfaction-oriented work approach."
+      "p1": "The Emrebas family story began in the 1980s with grain trading in Yozgat Yerköy. The commercial experience and entrepreneurial spirit passed down from father to son took on a new dimension when we stepped into the excavation and transportation sector in the early 2000s.",
+      "p2": "Starting with a single truck and great determination, our company grew rapidly by responding to the region's increasing infrastructure needs. Our expansion into sand quarry and stone quarry operations in the 2010s made us one of the most comprehensive construction material suppliers in the region.",
+      "p3": "Today, with over 40 years of commercial heritage and more than 20 years of industry experience, we provide excavation, sand and gravel production, transportation and construction services in Yozgat and surrounding provinces. From municipalities to solar power plant projects, from residential construction to infrastructure works — we are a reliable partner across a wide range of projects.",
+      "p4": "At Emrebas, we combine the warmth of a family business with a professional service approach. In every project, we stand by our customers with our commitment to keeping our word and delivering reliable work."
     },
     "mission": {
       "title": "Our Mission",
@@ -231,8 +232,8 @@
     "pageTitle": "Contact",
     "pageSubtitle": "Reach out to us, let's find the best solution for your projects together",
     "info": "Contact Information",
-    "phone1": "Phone 1",
-    "phone2": "Phone 2",
+    "phone1": "Phone",
+    "phone2": "Phone",
     "email": "Email",
     "address": "Address",
     "addressText": "Yozgat/Yerköy Kızıl Gedik Factory Area, Ankara Road 5th km, Yerköy",

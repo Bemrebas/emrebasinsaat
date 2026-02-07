@@ -100,12 +100,13 @@
   },
   "about": {
     "pageTitle": "Hakkımızda",
-    "pageSubtitle": "20 yılı aşkın tecrübe ile sektörün güvenilir ismi",
+    "pageSubtitle": "40 yılı aşkın ticari geçmiş, 20+ yıl sektör tecrübesiyle güvenilir çözüm ortağınız",
     "story": {
       "title": "Şirket Hikayemiz",
-      "p1": "Emrebaş İnşaat ve Madencilik, 2000'li yılların başında Yozgat Yerköy'de küçük bir hafriyat firması olarak kurulmuştur. Kuruluşundan bu yana sürekli büyüyen şirketimiz, bugün bölgenin en köklü ve güvenilir hafriyat ve madencilik firmalarından biri haline gelmiştir.",
-      "p2": "Kum ocağı ve taş kırma tesisimiz ile her boyutta agrega üretimi yapan şirketimiz, geniş araç ve makine parkuruyla hafriyat, nakliye ve inşaat sektöründe kapsamlı hizmetler sunmaktadır.",
-      "p3": "20 yılı aşkın tecrübemiz, 50'den fazla başarıyla tamamlanmış projemiz ve müşteri memnuniyeti odaklı çalışma anlayışımızla hizmet vermeye devam ediyoruz."
+      "p1": "Emrebaş ailesinin hikayesi, 1980'lerde Yozgat Yerköy'de zahirecilik ile başladı. Babadan oğula aktarılan ticari tecrübe ve girişimcilik ruhu, 2000'li yılların başında hafriyat ve nakliye sektörüne adım atmamızla yeni bir boyut kazandı.",
+      "p2": "Küçük bir kamyon ve büyük bir azimle yola çıkan firmamız, bölgenin artan altyapı ihtiyaçlarına yanıt vererek hızla büyüdü. 2010'lu yıllarda kum ocağı ve taş ocağı işletmeciliğine başlamamız, şirketimizi bölgenin en kapsamlı inşaat malzemesi tedarikçilerinden biri haline getirdi.",
+      "p3": "Bugün 40 yılı aşkın ticari geçmişimiz ve 20 yılı aşkın sektör tecrübemizle, Yozgat ve çevre illerde hafriyat, kum-mıcır üretimi, nakliye ve inşaat hizmetleri sunuyoruz. Belediyelerden GES projelerine, konut inşaatından altyapı çalışmalarına kadar geniş bir yelpazede güvenilir çözüm ortağıyız.",
+      "p4": "Emrebaş olarak, aile şirketi sıcaklığını profesyonel hizmet anlayışıyla birleştiriyoruz. Her projede sözümüze sadık, işimize güvenilir yaklaşımımızla müşterilerimizin yanındayız."
     },
     "mission": {
       "title": "Misyonumuz",
@@ -231,8 +232,8 @@
     "pageTitle": "İletişim",
     "pageSubtitle": "Bize ulaşın, projeleriniz için en uygun çözümü birlikte bulalım",
     "info": "İletişim Bilgileri",
-    "phone1": "Telefon 1",
-    "phone2": "Telefon 2",
+    "phone1": "Telefon",
+    "phone2": "Telefon",
     "email": "E-posta",
     "address": "Adres",
     "addressText": "Yozgat/Yerköy Kızıl Gedik Fabrika Sahası Ankara Yolu 5.km Yerköy",
