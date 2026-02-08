@@ -51,7 +51,7 @@ export default function Footer() {
                 { href: "/hakkimizda", label: nav("about") },
                 { href: "/hizmetlerimiz", label: nav("services") },
                 { href: "/urunlerimiz", label: nav("products") },
-                { href: "/arac-parkuru", label: nav("fleet") },
+
                 { href: "/projelerimiz", label: nav("projects") },
               ].map((link) => (
                 <li key={link.href}>

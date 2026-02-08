@@ -9,7 +9,7 @@
     "about": "Hakkımızda",
     "services": "Hizmetlerimiz",
     "products": "Ürünlerimiz",
-    "fleet": "Araç Parkuru",
+
     "projects": "Projelerimiz",
     "contact": "İletişim",
     "callUs": "Bizi Arayın",
@@ -184,56 +184,6 @@
     },
     "getQuote": "Teklif Al"
   },
-  "fleet": {
-    "meta": {
-      "title": "Araç Parkurumuz - İş Makinesi Kiralama | Emrebaş İnşaat Yozgat",
-      "description": "Ekskavatör, loder, kamyon, tır ve lowbed kiralama. Yozgat Yerköy'de operatörlü ve operatörsüz iş makinesi kiralama hizmetleri."
-    },
-    "pageTitle": "Araç ve Makine Parkurumuz",
-    "pageSubtitle": "Modern ve bakımlı araç filomuzla hizmetinizdeyiz",
-    "all": "Tümü",
-    "excavators": "Kazı Makineleri",
-    "transport": "Nakliye Araçları",
-    "rentQuote": "Kiralama Teklifi Al",
-    "items": {
-      "excavator": {
-        "name": "Ekskavatör",
-        "count": "3 Adet",
-        "capacity": "Çeşitli tonajlarda kazı kapasitesi",
-        "category": "excavators"
-      },
-      "loader": {
-        "name": "Loder",
-        "count": "2 Adet",
-        "capacity": "Yükleme ve taşıma kapasitesi",
-        "category": "excavators"
-      },
-      "truck": {
-        "name": "Kamyon",
-        "count": "3 Adet",
-        "capacity": "Hafriyat ve malzeme taşıma",
-        "category": "transport"
-      },
-      "semi": {
-        "name": "Tır",
-        "count": "1 Adet",
-        "capacity": "Uzun mesafe ağır yük taşıma",
-        "category": "transport"
-      },
-      "poolTrailer": {
-        "name": "Havuz Dorse",
-        "count": "1 Adet",
-        "capacity": "Dökme malzeme taşıma",
-        "category": "transport"
-      },
-      "lowbed": {
-        "name": "Lowbed",
-        "count": "1 Adet",
-        "capacity": "İş makinesi ve ağır yük taşıma",
-        "category": "transport"
-      }
-    }
-  },
   "projectsPage": {
     "meta": {
       "title": "Projelerimiz - Emrebaş İnşaat Yozgat",
@@ -247,18 +197,18 @@
     "construction": "İnşaat",
     "solar": "GES Projeleri",
     "items": [
-      { "name": "Yerköy Belediyesi Yol Yapım Projesi", "category": "infrastructure", "description": "Yerköy ilçe merkezinde 5 km yol altyapı ve üstyapı çalışması" },
-      { "name": "GES Tesis Alanı Hazırlama - Yozgat", "category": "solar", "description": "50 dönüm alanın güneş enerji santrali için düzleme ve hazırlık çalışması" },
-      { "name": "Konut İnşaatı Projesi", "category": "construction", "description": "Yerköy'de 12 daireli konut inşaatı projesi" },
-      { "name": "Kanalizasyon Altyapı Kazısı", "category": "infrastructure", "description": "Yerköy merkez kanalizasyon hattı kazı ve döşeme işleri" },
-      { "name": "Arazi Düzenleme Projesi", "category": "excavation", "description": "Sanayi bölgesi için 30 dönüm arazi tesviye çalışması" },
-      { "name": "GES Tesis Projesi - Kırşehir", "category": "solar", "description": "Kırşehir'de 25 MW güneş enerjisi santrali alan hazırlığı" },
-      { "name": "Mıcır Tedariği ve Nakliye", "category": "excavation", "description": "Yol yapım projesi için 10.000 ton mıcır tedariği ve nakliyesi" },
-      { "name": "Temel Kazı İşleri", "category": "construction", "description": "Fabrika binası temel kazı ve hafriyat işleri" },
-      { "name": "Su Şebekesi Altyapı Projesi", "category": "infrastructure", "description": "Köy yolları su şebekesi kazı ve boru döşeme çalışması" },
-      { "name": "Toplu Konut Hafriyat İşleri", "category": "excavation", "description": "200 konutluk toplu konut alanı hafriyat ve arazi düzenleme" },
-      { "name": "Tarımsal Sulama Kanalı", "category": "infrastructure", "description": "15 km sulama kanalı kazı ve düzenleme işleri" },
-      { "name": "GES Alan Hazırlığı - Yozgat 2", "category": "solar", "description": "Yozgat kuzey bölgesinde 35 dönüm GES alan hazırlığı" }
+      { "name": "Yozgat Havalimanı Projesi", "category": "infrastructure", "description": "Yozgat Havalimanı inşaat projesi kapsamında yaklaşık 50.000 ton 0-3mm kum tedariği sağlanmıştır.", "image": "/images/projects/yozgat-havalimani.jpeg" },
+      { "name": "MYSİLO Yerköy Projesi", "category": "excavation", "description": "MYSİLO Lisanslı Depoculuk A.Ş. Yerköy tesisi için 24 adet silo alanının hafriyat işleri tamamlanmıştır. Toplam yaklaşık 45.000 m³ kazı ve arazi düzenleme çalışması gerçekleştirilmiştir.", "image": "/images/projects/mysilo-yerkoy.jpg" },
+      { "name": "Ankara-Sivas YHT Projesi", "category": "infrastructure", "description": "Ankara-Sivas Yüksek Hızlı Tren hattı projesinde hafriyat işleri yürütülmüş, 50.000 ton elek üstü moloz ve 50.000 ton 15-30mm agrega tedariği sağlanmıştır.", "image": "/images/projects/ankara-sivas-yht.jpg" },
+      { "name": "Şehit Mehmet Tez Anadolu Lisesi Projesi", "category": "construction", "description": "Yerköy Şehit Mehmet Tez Anadolu Lisesi inşaat projesinde kırıcı ile alan açma dahil hafriyat işleri gerçekleştirilmiş ve 0-3mm kum tedariği sağlanmıştır.", "image": "/images/projects/mehmet-tez-lisesi.jpg" },
+      { "name": "Şehit Ferhat Gökdemir Mesleki ve Teknik Anadolu Lisesi Projesi", "category": "construction", "description": "Yerköy Şehit Ferhat Gökdemir Mesleki ve Teknik Anadolu Lisesi inşaat projesinde hafriyat ve zemin hazırlık işleri tarafımızca tamamlanmıştır.", "image": "/images/projects/meslek-lisesi.jpg" },
+      { "name": "Yerköy Şehit Korgeneral Osman Erbaş Devlet Hastanesi Projesi", "category": "construction", "description": "Yerköy Devlet Hastanesi inşaat projesinde hafriyat işleri gerçekleştirilmiş, 8.000 ton kum ve 5.000 ton çakıl tedariği sağlanmıştır.", "image": "/images/projects/yerkoy-hastane.jpg" },
+      { "name": "Yerköy 36 Dairelik Konut Projesi", "category": "construction", "description": "Yerköy'de birinci sınıf malzeme ve işçilikle inşa edilen 36 dairelik lüks konut projesi. Depreme dayanıklı betonarme yapı, modern mimari tasarım ve yüksek yaşam standartları ile tamamlanmıştır.", "image": "/images/services/insaat.jpeg" },
+      { "name": "OYAK GES Projesi", "category": "solar", "description": "Yozgat Saray'da kurulan OYAK Güneş Enerjisi Santrali projesinde belirli bölgelerin hafriyat, arazi düzenleme ve zemin hazırlık işleri tarafımızca gerçekleştirilmiştir.", "image": "/images/projects/oyak-ges.jpg" },
+      { "name": "Esatbeyoğlu Lidaş Projesi", "category": "excavation", "description": "Esatbeyoğlu Lidaş tesisinde 6 adet 40.000 tonluk silo alanının hafriyat işleri tamamlanmıştır. Silo tabanlarının sıkıştırma çalışmaları yapılmış ve yaklaşık 15.000 ton elek üstü moloz tedariği sağlanmıştır.", "image": "/images/projects/esatbeyoglu-lidas.jpg" },
+      { "name": "Yozgat İnandık Barajı", "category": "excavation", "description": "Yozgat İnandık Barajı projesinde hafriyat işleri gerçekleştirilmiş, Kırşehir'den 50.000 ton toz malzeme nakliyesi sağlanmıştır.", "image": "/images/projects/inandik-baraji.jpg" },
+      { "name": "MYSİLO Şefaatli Projesi", "category": "excavation", "description": "MYSİLO Lisanslı Depoculuk A.Ş. Şefaatli tesisi için 24 adet silo alanının hafriyat işleri yapılmıştır. Toplam yaklaşık 30.000 m³ kazı ve zemin hazırlığı çalışması tamamlanmıştır.", "image": "/images/projects/mysilo-sefaatli.jpg" },
+      { "name": "Yerköy Belediyesi Kanalizasyon Altyapı Mıcır Temini", "category": "infrastructure", "description": "Yerköy Belediyesi kanalizasyon altyapı projesi kapsamında 300.000 ton 5-12mm ve 15-25mm mıcır tedariği sağlanmıştır.", "image": "/images/projects/altyapi.jpg" }
     ]
   },
   "contact": {

@@ -3,7 +3,6 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import Image from "next/image";
-import { motion } from "framer-motion";
 import ScrollAnimationWrapper from "@/components/ScrollAnimationWrapper";
 import CounterAnimation from "@/components/CounterAnimation";
 import {
@@ -49,48 +48,36 @@ export default function HomeClient() {
         <div className="absolute inset-0 z-[1] bg-gradient-to-b from-black/60 via-black/50 to-black/70" />
 
         <div className="relative z-10 container-custom mx-auto px-4 text-center">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.15 }}
-          >
+          <div className="animate-fade-in-up" style={{ animationDelay: "0.15s" }}>
             <span className="inline-block bg-accent/20 text-accent border border-accent/30 text-sm font-semibold px-4 py-1.5 rounded-full mb-6">
               20+ {t("stats.years")}
             </span>
-          </motion.div>
+          </div>
 
-          <motion.h1
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.3 }}
-            className="text-4xl md:text-6xl lg:text-7xl font-extrabold text-white mb-4 leading-tight"
+          <h1
+            className="text-4xl md:text-6xl lg:text-7xl font-extrabold text-white mb-4 leading-tight animate-fade-in-up"
+            style={{ animationDelay: "0.3s" }}
           >
             {t("hero.title")}
-          </motion.h1>
+          </h1>
 
-          <motion.p
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.45 }}
-            className="text-xl md:text-2xl text-accent font-semibold mb-4"
+          <p
+            className="text-xl md:text-2xl text-accent font-semibold mb-4 animate-fade-in-up"
+            style={{ animationDelay: "0.45s" }}
           >
             {t("hero.subtitle")}
-          </motion.p>
+          </p>
 
-          <motion.p
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.6 }}
-            className="text-base md:text-lg text-gray-300 max-w-2xl mx-auto mb-10"
+          <p
+            className="text-base md:text-lg text-gray-300 max-w-2xl mx-auto mb-10 animate-fade-in-up"
+            style={{ animationDelay: "0.6s" }}
           >
             {t("hero.description")}
-          </motion.p>
+          </p>
 
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.75 }}
-            className="flex flex-col sm:flex-row gap-4 justify-center"
+          <div
+            className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up"
+            style={{ animationDelay: "0.75s" }}
           >
             <Link href="/iletisim" className="btn-primary text-lg flex items-center justify-center gap-2">
               {t("hero.getQuote")} <ArrowRight size={20} />
@@ -98,23 +85,17 @@ export default function HomeClient() {
             <a href="tel:+905435933566" className="btn-outline text-lg flex items-center justify-center gap-2">
               <Phone size={20} /> {t("hero.callUs")}
             </a>
-          </motion.div>
+          </div>
         </div>
 
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 1.2 }}
-          className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10"
+        <div
+          className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 animate-fade-in-up"
+          style={{ animationDelay: "1.2s" }}
         >
-          <motion.div
-            animate={{ y: [0, 10, 0] }}
-            transition={{ duration: 1.5, repeat: Infinity }}
-            className="w-6 h-10 border-2 border-white/40 rounded-full flex justify-center pt-2"
-          >
+          <div className="w-6 h-10 border-2 border-white/40 rounded-full flex justify-center pt-2 animate-bounce-slow">
             <div className="w-1.5 h-1.5 bg-white rounded-full" />
-          </motion.div>
-        </motion.div>
+          </div>
+        </div>
       </section>
 
       {/* Featured Services */}

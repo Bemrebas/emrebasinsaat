@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { motion, useInView } from "framer-motion";
 
 interface Props {
   end: number;
@@ -12,11 +11,25 @@ interface Props {
 
 export default function CounterAnimation({ end, suffix = "+", label, duration = 2 }: Props) {
   const [count, setCount] = useState(0);
-  const ref = useRef(null);
-  const isInView = useInView(ref, { once: true });
+  const [isVisible, setIsVisible] = useState(false);
+  const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    if (!isInView) return;
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+          observer.disconnect();
+        }
+      },
+      { threshold: 0.1 }
+    );
+    if (ref.current) observer.observe(ref.current);
+    return () => observer.disconnect();
+  }, []);
+
+  useEffect(() => {
+    if (!isVisible) return;
 
     let start = 0;
     const step = end / (duration * 60);
@@ -31,22 +44,23 @@ export default function CounterAnimation({ end, suffix = "+", label, duration = 
     }, 1000 / 60);
 
     return () => clearInterval(timer);
-  }, [isInView, end, duration]);
+  }, [isVisible, end, duration]);
 
   return (
-    <motion.div
+    <div
       ref={ref}
-      initial={{ opacity: 0, y: 20 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true }}
-      transition={{ duration: 0.5 }}
       className="text-center"
+      style={{
+        opacity: isVisible ? 1 : 0,
+        transform: isVisible ? "translateY(0)" : "translateY(20px)",
+        transition: "opacity 0.5s ease-out, transform 0.5s ease-out",
+      }}
     >
       <div className="text-4xl md:text-5xl font-bold text-accent mb-2">
         {count}
         {suffix}
       </div>
       <div className="text-gray-300 text-sm md:text-base font-medium">{label}</div>
-    </motion.div>
+    </div>
   );
 }

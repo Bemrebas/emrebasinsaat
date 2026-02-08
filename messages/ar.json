@@ -9,7 +9,7 @@
     "about": "من نحن",
     "services": "خدماتنا",
     "products": "منتجاتنا",
-    "fleet": "أسطولنا",
+
     "projects": "مشاريعنا",
     "contact": "اتصل بنا",
     "callUs": "اتصل بنا",
@@ -184,56 +184,6 @@
     },
     "getQuote": "احصل على عرض سعر"
   },
-  "fleet": {
-    "meta": {
-      "title": "أسطولنا - تأجير معدات البناء | إمرباش يوزغات",
-      "description": "تأجير حفارات ولوادر وشاحنات ومقطورات ولوبد. خدمات تأجير معدات البناء بمشغل وبدون مشغل في يوزغات يركوي."
-    },
-    "pageTitle": "أسطول المركبات والمعدات",
-    "pageSubtitle": "في خدمتكم بأسطولنا الحديث والمصان جيدًا",
-    "all": "الكل",
-    "excavators": "آلات الحفر",
-    "transport": "مركبات النقل",
-    "rentQuote": "احصل على عرض تأجير",
-    "items": {
-      "excavator": {
-        "name": "حفارة",
-        "count": "3 وحدات",
-        "capacity": "قدرة حفر بحمولات متنوعة",
-        "category": "excavators"
-      },
-      "loader": {
-        "name": "لودر",
-        "count": "وحدتان",
-        "capacity": "قدرة التحميل والنقل",
-        "category": "excavators"
-      },
-      "truck": {
-        "name": "شاحنة",
-        "count": "3 وحدات",
-        "capacity": "نقل الحفريات والمواد",
-        "category": "transport"
-      },
-      "semi": {
-        "name": "شاحنة مقطورة",
-        "count": "وحدة واحدة",
-        "capacity": "نقل الأحمال الثقيلة لمسافات طويلة",
-        "category": "transport"
-      },
-      "poolTrailer": {
-        "name": "مقطورة حوض",
-        "count": "وحدة واحدة",
-        "capacity": "نقل المواد السائبة",
-        "category": "transport"
-      },
-      "lowbed": {
-        "name": "لوبد",
-        "count": "وحدة واحدة",
-        "capacity": "نقل معدات البناء والأحمال الثقيلة",
-        "category": "transport"
-      }
-    }
-  },
   "projectsPage": {
     "meta": {
       "title": "مشاريعنا - إمرباش للإنشاءات يوزغات",
@@ -247,18 +197,18 @@
     "construction": "البناء",
     "solar": "مشاريع الطاقة الشمسية",
     "items": [
-      { "name": "مشروع بناء طريق بلدية يركوي", "category": "infrastructure", "description": "أعمال البنية التحتية والفوقية لـ 5 كم طريق في مركز يركوي" },
-      { "name": "تحضير موقع محطة شمسية - يوزغات", "category": "solar", "description": "تسوية وتحضير 50 دونمًا لمحطة طاقة شمسية" },
-      { "name": "مشروع بناء سكني", "category": "construction", "description": "مشروع بناء سكني من 12 شقة في يركوي" },
-      { "name": "حفريات البنية التحتية للصرف الصحي", "category": "infrastructure", "description": "أعمال حفر ومد خط الصرف الصحي المركزي في يركوي" },
-      { "name": "مشروع ترتيب الأراضي", "category": "excavation", "description": "أعمال تسوية 30 دونم أرض للمنطقة الصناعية" },
-      { "name": "مشروع محطة شمسية - كيرشهير", "category": "solar", "description": "تحضير موقع محطة طاقة شمسية 25 ميجاوات في كيرشهير" },
-      { "name": "توريد ونقل الحصى", "category": "excavation", "description": "توريد ونقل 10,000 طن حصى لمشروع بناء طرق" },
-      { "name": "أعمال حفر الأساسات", "category": "construction", "description": "أعمال حفر الأساسات والحفريات لمبنى مصنع" },
-      { "name": "مشروع شبكة المياه", "category": "infrastructure", "description": "أعمال حفر ومد أنابيب شبكة مياه طرق القرى" },
-      { "name": "حفريات الإسكان الجماعي", "category": "excavation", "description": "حفريات وترتيب أرض لمنطقة سكنية من 200 وحدة" },
-      { "name": "قناة ري زراعية", "category": "infrastructure", "description": "أعمال حفر وترتيب قناة ري بطول 15 كم" },
-      { "name": "تحضير موقع شمسي - يوزغات 2", "category": "solar", "description": "تحضير موقع شمسي 35 دونم في شمال يوزغات" }
+      { "name": "مشروع مطار يوزغات", "category": "infrastructure", "description": "تم توريد حوالي 50,000 طن من الرمل بقياس 0-3 مم لمشروع بناء مطار يوزغات.", "image": "/images/projects/yozgat-havalimani.jpeg" },
+      { "name": "مشروع مايسيلو يركوي", "category": "excavation", "description": "تم إنجاز أعمال الحفر لمنطقة 24 صومعة في منشأة مايسيلو للتخزين المرخص في يركوي. تم تنفيذ حوالي 45,000 متر مكعب من أعمال الحفر وتحضير الأرض.", "image": "/images/projects/mysilo-yerkoy.jpg" },
+      { "name": "مشروع قطار أنقرة-سيفاس السريع", "category": "infrastructure", "description": "تم تنفيذ أعمال الحفر لمشروع خط قطار أنقرة-سيفاس السريع، مع توريد 50,000 طن من الأنقاض الكبيرة و50,000 طن من الركام بقياس 15-30 مم.", "image": "/images/projects/ankara-sivas-yht.jpg" },
+      { "name": "مشروع ثانوية الشهيد محمد تز", "category": "construction", "description": "تم تنفيذ أعمال الحفر بما في ذلك تكسير الصخور وفتح الموقع لمشروع بناء ثانوية الشهيد محمد تز، مع توريد رمل بقياس 0-3 مم.", "image": "/images/projects/mehmet-tez-lisesi.jpg" },
+      { "name": "مشروع ثانوية الشهيد فرحات غوكدمير المهنية", "category": "construction", "description": "تم إنجاز أعمال الحفر وتحضير الأرض لمشروع بناء ثانوية الشهيد فرحات غوكدمير المهنية والتقنية.", "image": "/images/projects/meslek-lisesi.jpg" },
+      { "name": "مشروع مستشفى يركوي الحكومي", "category": "construction", "description": "تم تنفيذ أعمال الحفر لمشروع بناء مستشفى يركوي الحكومي، مع توريد 8,000 طن من الرمل و5,000 طن من الحصى.", "image": "/images/projects/yerkoy-hastane.jpg" },
+      { "name": "مشروع يركوي السكني 36 شقة", "category": "construction", "description": "مشروع سكني فاخر مكون من 36 شقة تم بناؤه بمواد وحرفية من الدرجة الأولى في يركوي. تم إنجازه بهيكل خرساني مسلح مقاوم للزلازل وتصميم معماري حديث ومعايير معيشة عالية.", "image": "/images/services/insaat.jpeg" },
+      { "name": "مشروع أوياك للطاقة الشمسية", "category": "solar", "description": "تم تنفيذ أعمال الحفر وتسوية الأراضي وتحضير الأرض لمناطق محددة في مشروع محطة أوياك للطاقة الشمسية في يوزغات ساراي.", "image": "/images/projects/oyak-ges.jpg" },
+      { "name": "مشروع إسات بي أوغلو ليداش", "category": "excavation", "description": "تم إنجاز أعمال الحفر لـ 6 صوامع بسعة 40,000 طن لكل منها في منشأة إسات بي أوغلو ليداش. تم تنفيذ أعمال ضغط قواعد الصوامع وتوريد حوالي 15,000 طن من الأنقاض الكبيرة.", "image": "/images/projects/esatbeyoglu-lidas.jpg" },
+      { "name": "سد إنانديك يوزغات", "category": "excavation", "description": "تم تنفيذ أعمال الحفر لمشروع سد إنانديك في يوزغات، مع نقل 50,000 طن من المواد الترابية من كيرشهير.", "image": "/images/projects/inandik-baraji.jpg" },
+      { "name": "مايسيلو مشروع شفاعتلي", "category": "excavation", "description": "تم إنجاز أعمال الحفر لمنطقة 24 صومعة في منشأة مايسيلو للتخزين المرخص في شفاعتلي. تم تنفيذ حوالي 30,000 متر مكعب من أعمال الحفر وتحضير الأرض.", "image": "/images/projects/mysilo-sefaatli.jpg" },
+      { "name": "توريد حصى البنية التحتية لصرف بلدية يركوي", "category": "infrastructure", "description": "تم توريد 300,000 طن من الحصى بقياس 5-12 مم و15-25 مم لمشروع البنية التحتية للصرف الصحي لبلدية يركوي.", "image": "/images/projects/altyapi.jpg" }
     ]
   },
   "contact": {

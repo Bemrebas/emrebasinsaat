@@ -9,7 +9,7 @@
     "about": "About Us",
     "services": "Services",
     "products": "Products",
-    "fleet": "Fleet",
+
     "projects": "Projects",
     "contact": "Contact",
     "callUs": "Call Us",
@@ -184,56 +184,6 @@
     },
     "getQuote": "Get a Quote"
   },
-  "fleet": {
-    "meta": {
-      "title": "Our Fleet - Construction Equipment Rental | Emrebas Construction Yozgat",
-      "description": "Excavator, loader, truck, semi-trailer and lowbed rental. Operated and non-operated construction equipment rental services in Yozgat Yerköy."
-    },
-    "pageTitle": "Our Vehicle & Machine Fleet",
-    "pageSubtitle": "At your service with our modern and well-maintained fleet",
-    "all": "All",
-    "excavators": "Excavation Machines",
-    "transport": "Transport Vehicles",
-    "rentQuote": "Get Rental Quote",
-    "items": {
-      "excavator": {
-        "name": "Excavator",
-        "count": "3 Units",
-        "capacity": "Various tonnage excavation capacity",
-        "category": "excavators"
-      },
-      "loader": {
-        "name": "Loader",
-        "count": "2 Units",
-        "capacity": "Loading and carrying capacity",
-        "category": "excavators"
-      },
-      "truck": {
-        "name": "Truck",
-        "count": "3 Units",
-        "capacity": "Excavation and material transportation",
-        "category": "transport"
-      },
-      "semi": {
-        "name": "Semi-trailer",
-        "count": "1 Unit",
-        "capacity": "Long distance heavy load transportation",
-        "category": "transport"
-      },
-      "poolTrailer": {
-        "name": "Pool Trailer",
-        "count": "1 Unit",
-        "capacity": "Bulk material transportation",
-        "category": "transport"
-      },
-      "lowbed": {
-        "name": "Lowbed",
-        "count": "1 Unit",
-        "capacity": "Construction equipment and heavy load transportation",
-        "category": "transport"
-      }
-    }
-  },
   "projectsPage": {
     "meta": {
       "title": "Our Projects - Emrebas Construction Yozgat",
@@ -247,18 +197,18 @@
     "construction": "Construction",
     "solar": "Solar Projects",
     "items": [
-      { "name": "Yerköy Municipality Road Construction", "category": "infrastructure", "description": "5 km road infrastructure and superstructure work in Yerköy district center" },
-      { "name": "Solar Plant Site Preparation - Yozgat", "category": "solar", "description": "Leveling and preparation of 50 acres for solar power plant" },
-      { "name": "Residential Construction Project", "category": "construction", "description": "12-unit residential construction project in Yerköy" },
-      { "name": "Sewerage Infrastructure Excavation", "category": "infrastructure", "description": "Yerköy central sewerage line excavation and laying works" },
-      { "name": "Land Arrangement Project", "category": "excavation", "description": "30-acre land leveling for industrial zone" },
-      { "name": "Solar Plant Project - Kırşehir", "category": "solar", "description": "25 MW solar power plant site preparation in Kırşehir" },
-      { "name": "Gravel Supply and Transportation", "category": "excavation", "description": "10,000 tons of gravel supply and transportation for road construction" },
-      { "name": "Foundation Excavation Works", "category": "construction", "description": "Factory building foundation excavation and earthwork" },
-      { "name": "Water Network Infrastructure", "category": "infrastructure", "description": "Village road water network excavation and pipe laying" },
-      { "name": "Mass Housing Excavation", "category": "excavation", "description": "Excavation and land arrangement for 200-unit housing area" },
-      { "name": "Agricultural Irrigation Canal", "category": "infrastructure", "description": "15 km irrigation canal excavation and arrangement" },
-      { "name": "Solar Site Preparation - Yozgat 2", "category": "solar", "description": "35-acre solar plant site preparation in northern Yozgat" }
+      { "name": "Yozgat Airport Project", "category": "infrastructure", "description": "Approximately 50,000 tons of 0-3mm sand supplied for the Yozgat Airport construction project.", "image": "/images/projects/yozgat-havalimani.jpeg" },
+      { "name": "MYSİLO Yerköy Project", "category": "excavation", "description": "Excavation works completed for 24 silo areas at the MYSİLO Licensed Warehousing Yerköy facility. Approximately 45,000 m³ of excavation and land preparation works were carried out.", "image": "/images/projects/mysilo-yerkoy.jpg" },
+      { "name": "Ankara-Sivas High Speed Train Project", "category": "infrastructure", "description": "Excavation works conducted for the Ankara-Sivas High Speed Train line project, supplying 50,000 tons of oversize rubble and 50,000 tons of 15-30mm aggregate.", "image": "/images/projects/ankara-sivas-yht.jpg" },
+      { "name": "Şehit Mehmet Tez Anatolian High School Project", "category": "construction", "description": "Excavation works including rock breaking and site clearing for the Yerköy Şehit Mehmet Tez Anatolian High School construction, along with 0-3mm sand supply.", "image": "/images/projects/mehmet-tez-lisesi.jpg" },
+      { "name": "Şehit Ferhat Gökdemir Vocational High School Project", "category": "construction", "description": "Excavation and ground preparation works completed for the Yerköy Şehit Ferhat Gökdemir Vocational and Technical Anatolian High School construction project.", "image": "/images/projects/meslek-lisesi.jpg" },
+      { "name": "Yerköy Şehit Korgeneral Osman Erbaş State Hospital Project", "category": "construction", "description": "Excavation works carried out for the Yerköy State Hospital construction project, with 8,000 tons of sand and 5,000 tons of gravel supplied.", "image": "/images/projects/yerkoy-hastane.jpg" },
+      { "name": "Yerköy 36-Unit Residential Project", "category": "construction", "description": "A 36-unit luxury residential project built with first-class materials and workmanship in Yerköy. Completed with earthquake-resistant reinforced concrete structure, modern architectural design and high living standards.", "image": "/images/services/insaat.jpeg" },
+      { "name": "OYAK Solar Power Plant Project", "category": "solar", "description": "Excavation, land leveling and ground preparation works for designated areas of the OYAK Solar Power Plant project established in Yozgat Saray.", "image": "/images/projects/oyak-ges.jpg" },
+      { "name": "Esatbeyoğlu Lidaş Project", "category": "excavation", "description": "Excavation works completed for 6 silos with 40,000-ton capacity each at the Esatbeyoğlu Lidaş facility. Silo base compaction works were carried out and approximately 15,000 tons of oversize rubble was supplied.", "image": "/images/projects/esatbeyoglu-lidas.jpg" },
+      { "name": "Yozgat İnandık Dam", "category": "excavation", "description": "Excavation works carried out for the Yozgat İnandık Dam project, with 50,000 tons of dust material transported from Kırşehir.", "image": "/images/projects/inandik-baraji.jpg" },
+      { "name": "MYSİLO Şefaatli Project", "category": "excavation", "description": "Excavation works completed for 24 silo areas at the MYSİLO Licensed Warehousing Şefaatli facility. Approximately 30,000 m³ of excavation and ground preparation works were completed.", "image": "/images/projects/mysilo-sefaatli.jpg" },
+      { "name": "Yerköy Municipality Sewerage Infrastructure Gravel Supply", "category": "infrastructure", "description": "300,000 tons of 5-12mm and 15-25mm gravel supplied for Yerköy Municipality sewerage infrastructure project.", "image": "/images/projects/altyapi.jpg" }
     ]
   },
   "contact": {

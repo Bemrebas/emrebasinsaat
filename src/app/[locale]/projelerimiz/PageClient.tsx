@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { useTranslations } from "next-intl";
 import ScrollAnimationWrapper from "@/components/ScrollAnimationWrapper";
-import { motion, AnimatePresence } from "framer-motion";
+import Image from "next/image";
 import { X, ZoomIn, MapPin, Tag } from "lucide-react";
 
 export default function PageClient() {
@@ -15,6 +15,7 @@ export default function PageClient() {
     name: string;
     category: string;
     description: string;
+    image?: string;
   }>;
 
   const filters = [
@@ -75,90 +76,87 @@ export default function PageClient() {
 
           {/* Grid */}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <AnimatePresence mode="popLayout">
-              {filteredItems.map((item, i) => (
-                <motion.div
-                  key={item.name}
-                  layout
-                  initial={{ opacity: 0, scale: 0.9 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  exit={{ opacity: 0, scale: 0.9 }}
-                  transition={{ duration: 0.3 }}
+            {filteredItems.map((item, i) => (
+              <div
+                key={item.name}
+                className="transition-all duration-300"
+                style={{ animation: `fadeInScale 0.3s ease-out ${i * 0.05}s both` }}
+              >
+                <div
+                  className="card-base overflow-hidden group cursor-pointer h-full"
+                  onClick={() => setLightboxIndex(i)}
                 >
-                  <div
-                    className="card-base overflow-hidden group cursor-pointer h-full"
-                    onClick={() => setLightboxIndex(i)}
-                  >
-                    <div className={`h-52 bg-gradient-to-br ${categoryColors[item.category] || "from-gray-400 to-gray-600"} flex items-center justify-center relative overflow-hidden`}>
+                  <div className={`h-52 relative overflow-hidden ${!item.image ? `bg-gradient-to-br ${categoryColors[item.category] || "from-gray-400 to-gray-600"} flex items-center justify-center` : ""}`}>
+                    {item.image ? (
+                      <Image src={item.image} alt={item.name} fill className="object-cover" sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw" />
+                    ) : (
                       <MapPin size={48} className="text-white/20" />
-                      <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors flex items-center justify-center">
-                        <ZoomIn
-                          size={32}
-                          className="text-white opacity-0 group-hover:opacity-100 transition-opacity"
-                        />
-                      </div>
-                    </div>
-                    <div className="p-5">
-                      <div className="flex items-center gap-2 mb-2">
-                        <Tag size={14} className="text-accent" />
-                        <span className="text-xs font-semibold text-accent uppercase">
-                          {filters.find((f) => f.key === item.category)?.label}
-                        </span>
-                      </div>
-                      <h3 className="font-bold text-lg mb-2">{item.name}</h3>
-                      <p className="text-[var(--muted-foreground)] text-sm">
-                        {item.description}
-                      </p>
+                    )}
+                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors flex items-center justify-center">
+                      <ZoomIn
+                        size={32}
+                        className="text-white opacity-0 group-hover:opacity-100 transition-opacity"
+                      />
                     </div>
                   </div>
-                </motion.div>
-              ))}
-            </AnimatePresence>
+                  <div className="p-5">
+                    <div className="flex items-center gap-2 mb-2">
+                      <Tag size={14} className="text-accent" />
+                      <span className="text-xs font-semibold text-accent uppercase">
+                        {filters.find((f) => f.key === item.category)?.label}
+                      </span>
+                    </div>
+                    <h3 className="font-bold text-lg mb-2">{item.name}</h3>
+                    <p className="text-[var(--muted-foreground)] text-sm">
+                      {item.description}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
       {/* Lightbox */}
-      <AnimatePresence>
-        {lightboxIndex !== null && (
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            className="fixed inset-0 z-[100] bg-black/90 flex items-center justify-center p-4"
+      {lightboxIndex !== null && (
+        <div
+          className="fixed inset-0 z-[100] bg-black/90 flex items-center justify-center p-4"
+          onClick={() => setLightboxIndex(null)}
+          style={{ animation: "fadeIn 0.3s ease-out" }}
+        >
+          <button
+            className="absolute top-4 right-4 text-white hover:text-accent transition-colors"
             onClick={() => setLightboxIndex(null)}
           >
-            <button
-              className="absolute top-4 right-4 text-white hover:text-accent transition-colors"
-              onClick={() => setLightboxIndex(null)}
-            >
-              <X size={32} />
-            </button>
-            <motion.div
-              initial={{ scale: 0.8 }}
-              animate={{ scale: 1 }}
-              exit={{ scale: 0.8 }}
-              className="max-w-3xl w-full bg-white dark:bg-dark-light rounded-2xl overflow-hidden"
-              onClick={(e) => e.stopPropagation()}
-            >
-              <div className={`h-64 md:h-80 bg-gradient-to-br ${categoryColors[filteredItems[lightboxIndex]?.category] || "from-gray-400 to-gray-600"} flex items-center justify-center`}>
+            <X size={32} />
+          </button>
+          <div
+            className="max-w-3xl w-full bg-white dark:bg-dark-light rounded-2xl overflow-hidden"
+            onClick={(e) => e.stopPropagation()}
+            style={{ animation: "scaleIn 0.3s ease-out" }}
+          >
+            <div className={`h-64 md:h-80 relative overflow-hidden ${!filteredItems[lightboxIndex]?.image ? `bg-gradient-to-br ${categoryColors[filteredItems[lightboxIndex]?.category] || "from-gray-400 to-gray-600"} flex items-center justify-center` : ""}`}>
+              {filteredItems[lightboxIndex]?.image ? (
+                <Image src={filteredItems[lightboxIndex].image!} alt={filteredItems[lightboxIndex]?.name || ""} fill className="object-cover" sizes="(max-width: 768px) 100vw, 800px" />
+              ) : (
                 <MapPin size={64} className="text-white/30" />
-              </div>
-              <div className="p-8">
-                <span className="text-xs font-semibold text-accent uppercase">
-                  {filters.find((f) => f.key === filteredItems[lightboxIndex]?.category)?.label}
-                </span>
-                <h3 className="text-2xl font-bold mt-2 mb-3">
-                  {filteredItems[lightboxIndex]?.name}
-                </h3>
-                <p className="text-[var(--muted-foreground)]">
-                  {filteredItems[lightboxIndex]?.description}
-                </p>
-              </div>
-            </motion.div>
-          </motion.div>
-        )}
-      </AnimatePresence>
+              )}
+            </div>
+            <div className="p-8">
+              <span className="text-xs font-semibold text-accent uppercase">
+                {filters.find((f) => f.key === filteredItems[lightboxIndex]?.category)?.label}
+              </span>
+              <h3 className="text-2xl font-bold mt-2 mb-3">
+                {filteredItems[lightboxIndex]?.name}
+              </h3>
+              <p className="text-[var(--muted-foreground)]">
+                {filteredItems[lightboxIndex]?.description}
+              </p>
+            </div>
+          </div>
+        </div>
+      )}
     </>
   );
 }

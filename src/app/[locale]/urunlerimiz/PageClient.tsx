@@ -4,7 +4,6 @@ import { useState } from "react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import ScrollAnimationWrapper from "@/components/ScrollAnimationWrapper";
-import { motion, AnimatePresence } from "framer-motion";
 import {
   ArrowRight,
   Layers,
@@ -262,76 +261,69 @@ export default function PageClient() {
       </section>
 
       {/* Lightbox */}
-      <AnimatePresence>
-        {lightboxKey && (
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            className="fixed inset-0 z-[100] bg-black/90 flex items-center justify-center p-4"
+      {lightboxKey && (
+        <div
+          className="fixed inset-0 z-[100] bg-black/90 flex items-center justify-center p-4"
+          onClick={() => setLightboxKey(null)}
+          style={{ animation: "fadeIn 0.3s ease-out" }}
+        >
+          <button
+            className="absolute top-4 right-4 text-white hover:text-accent transition-colors z-10"
             onClick={() => setLightboxKey(null)}
           >
-            <button
-              className="absolute top-4 right-4 text-white hover:text-accent transition-colors z-10"
-              onClick={() => setLightboxKey(null)}
-            >
-              <X size={32} />
-            </button>
-            <motion.div
-              initial={{ scale: 0.8, opacity: 0 }}
-              animate={{ scale: 1, opacity: 1 }}
-              exit={{ scale: 0.8, opacity: 0 }}
-              transition={{ type: "spring", damping: 25 }}
-              className="max-w-4xl w-full bg-white dark:bg-dark-light rounded-2xl overflow-hidden shadow-2xl"
-              onClick={(e) => e.stopPropagation()}
-            >
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src={productImages[lightboxKey]}
-                alt={t(`items.${lightboxKey}.alt`)}
-                className="w-full h-64 md:h-96 object-cover"
-              />
-              <div className="p-6 md:p-8">
-                <div className="flex items-center justify-between mb-3">
-                  <h3 className="text-2xl font-bold">
-                    {t(`items.${lightboxKey}.name`)}
-                  </h3>
-                  <span className="bg-accent text-white text-sm font-bold px-4 py-1.5 rounded-full">
-                    {t(`items.${lightboxKey}.size`)}
-                  </span>
-                </div>
-                <p className="text-[var(--muted-foreground)] mb-4 text-lg">
-                  {t(`items.${lightboxKey}.description`)}
-                </p>
-                <div className="bg-[var(--muted)] rounded-xl p-4 mb-6">
-                  <h4 className="font-semibold text-sm mb-2">{t("usageAreas")}:</h4>
-                  <p className="text-sm text-[var(--muted-foreground)]">
-                    {t(`items.${lightboxKey}.usage`)}
-                  </p>
-                </div>
-                <div className="flex flex-col sm:flex-row gap-3">
-                  <a
-                    href={whatsappMessage(t(`items.${lightboxKey}.name`))}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex-1 bg-[#25D366] hover:bg-[#1da851] text-white font-semibold py-3 px-6 rounded-lg transition-all inline-flex items-center justify-center gap-2"
-                  >
-                    <MessageCircle size={18} />
-                    {t("whatsappQuote")}
-                  </a>
-                  <a
-                    href="tel:+905435933566"
-                    className="flex-1 bg-accent hover:bg-accent-dark text-white font-semibold py-3 px-6 rounded-lg transition-all inline-flex items-center justify-center gap-2"
-                  >
-                    <Phone size={18} />
-                    {t("getQuote")}
-                  </a>
-                </div>
+            <X size={32} />
+          </button>
+          <div
+            className="max-w-4xl w-full bg-white dark:bg-dark-light rounded-2xl overflow-hidden shadow-2xl"
+            onClick={(e) => e.stopPropagation()}
+            style={{ animation: "scaleIn 0.3s ease-out" }}
+          >
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={productImages[lightboxKey]}
+              alt={t(`items.${lightboxKey}.alt`)}
+              className="w-full h-64 md:h-96 object-cover"
+            />
+            <div className="p-6 md:p-8">
+              <div className="flex items-center justify-between mb-3">
+                <h3 className="text-2xl font-bold">
+                  {t(`items.${lightboxKey}.name`)}
+                </h3>
+                <span className="bg-accent text-white text-sm font-bold px-4 py-1.5 rounded-full">
+                  {t(`items.${lightboxKey}.size`)}
+                </span>
               </div>
-            </motion.div>
-          </motion.div>
-        )}
-      </AnimatePresence>
+              <p className="text-[var(--muted-foreground)] mb-4 text-lg">
+                {t(`items.${lightboxKey}.description`)}
+              </p>
+              <div className="bg-[var(--muted)] rounded-xl p-4 mb-6">
+                <h4 className="font-semibold text-sm mb-2">{t("usageAreas")}:</h4>
+                <p className="text-sm text-[var(--muted-foreground)]">
+                  {t(`items.${lightboxKey}.usage`)}
+                </p>
+              </div>
+              <div className="flex flex-col sm:flex-row gap-3">
+                <a
+                  href={whatsappMessage(t(`items.${lightboxKey}.name`))}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex-1 bg-[#25D366] hover:bg-[#1da851] text-white font-semibold py-3 px-6 rounded-lg transition-all inline-flex items-center justify-center gap-2"
+                >
+                  <MessageCircle size={18} />
+                  {t("whatsappQuote")}
+                </a>
+                <a
+                  href="tel:+905435933566"
+                  className="flex-1 bg-accent hover:bg-accent-dark text-white font-semibold py-3 px-6 rounded-lg transition-all inline-flex items-center justify-center gap-2"
+                >
+                  <Phone size={18} />
+                  {t("getQuote")}
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     </>
   );
 }

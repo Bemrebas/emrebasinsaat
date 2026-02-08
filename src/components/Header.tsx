@@ -14,7 +14,6 @@ import {
   ChevronDown,
   Globe,
 } from "lucide-react";
-import { motion, AnimatePresence } from "framer-motion";
 
 const localeLabels: Record<string, string> = { tr: "TR", en: "EN", ar: "AR" };
 
@@ -40,7 +39,6 @@ export default function Header({ locale }: { locale: string }) {
     { href: "/hakkimizda", label: t("about") },
     { href: "/hizmetlerimiz", label: t("services") },
     { href: "/urunlerimiz", label: t("products") },
-    { href: "/arac-parkuru", label: t("fleet") },
     { href: "/projelerimiz", label: t("projects") },
     { href: "/iletisim", label: t("contact") },
   ];
@@ -67,29 +65,28 @@ export default function Header({ locale }: { locale: string }) {
       <div className="container-custom mx-auto flex items-center justify-between px-4">
         {/* Logo - sadece scroll sonrası görünür */}
         <div className="flex-shrink-0 min-h-[50px] flex items-center">
-          <AnimatePresence>
+          <div
+            style={{
+              opacity: isScrolled ? 1 : 0,
+              transform: isScrolled ? "scale(1) translateX(0)" : "scale(0.8) translateX(-20px)",
+              transition: "opacity 0.3s ease-out, transform 0.3s ease-out",
+            }}
+          >
             {isScrolled && (
-              <motion.div
-                initial={{ opacity: 0, scale: 0.8, x: -20 }}
-                animate={{ opacity: 1, scale: 1, x: 0 }}
-                exit={{ opacity: 0, scale: 0.8, x: -20 }}
-                transition={{ duration: 0.3, ease: "easeOut" }}
-              >
-                <Link href="/" className="block">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src="/images/logo.png"
-                    alt="Emrebaş İnşaat - Kum Ocağı & Hafriyat"
-                    width={140}
-                    height={70}
-                    className="object-contain h-auto w-[100px] md:w-[120px] dark:brightness-0 dark:invert"
-                    loading="eager"
-                    fetchPriority="high"
-                  />
-                </Link>
-              </motion.div>
+              <Link href="/" className="block">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="/images/logo.png"
+                  alt="Emrebaş İnşaat - Kum Ocağı & Hafriyat"
+                  width={140}
+                  height={70}
+                  className="object-contain h-auto w-[100px] md:w-[120px] dark:brightness-0 dark:invert"
+                  loading="eager"
+                  fetchPriority="high"
+                />
+              </Link>
             )}
-          </AnimatePresence>
+          </div>
         </div>
 
         {/* Desktop Nav */}
@@ -127,30 +124,26 @@ export default function Header({ locale }: { locale: string }) {
               <span>{localeLabels[locale]}</span>
               <ChevronDown size={14} />
             </button>
-            <AnimatePresence>
-              {isLangOpen && (
-                <motion.div
-                  initial={{ opacity: 0, y: -10 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  exit={{ opacity: 0, y: -10 }}
-                  className="absolute top-full mt-1 right-0 bg-white dark:bg-dark-light rounded-lg shadow-xl border border-gray-200 dark:border-dark-lighter overflow-hidden min-w-[100px]"
-                >
-                  {Object.entries(localeLabels).map(([code, label]) => (
-                    <button
-                      key={code}
-                      onClick={() => switchLocale(code)}
-                      className={`block w-full text-left px-4 py-2 text-sm hover:bg-gray-100 dark:hover:bg-dark-lighter transition-colors ${
-                        locale === code
-                          ? "text-accent font-semibold"
-                          : "text-gray-700 dark:text-gray-300"
-                      }`}
-                    >
-                      {label} {code === "tr" ? "Türkçe" : code === "en" ? "English" : "العربية"}
-                    </button>
-                  ))}
-                </motion.div>
-              )}
-            </AnimatePresence>
+            {isLangOpen && (
+              <div
+                className="absolute top-full mt-1 right-0 bg-white dark:bg-dark-light rounded-lg shadow-xl border border-gray-200 dark:border-dark-lighter overflow-hidden min-w-[100px]"
+                style={{ animation: "fadeInDown 0.2s ease-out" }}
+              >
+                {Object.entries(localeLabels).map(([code, label]) => (
+                  <button
+                    key={code}
+                    onClick={() => switchLocale(code)}
+                    className={`block w-full text-left px-4 py-2 text-sm hover:bg-gray-100 dark:hover:bg-dark-lighter transition-colors ${
+                      locale === code
+                        ? "text-accent font-semibold"
+                        : "text-gray-700 dark:text-gray-300"
+                    }`}
+                  >
+                    {label} {code === "tr" ? "Türkçe" : code === "en" ? "English" : "العربية"}
+                  </button>
+                ))}
+              </div>
+            )}
           </div>
 
           {/* Theme Toggle */}
@@ -192,40 +185,36 @@ export default function Header({ locale }: { locale: string }) {
       </div>
 
       {/* Mobile Menu */}
-      <AnimatePresence>
-        {isMobileOpen && (
-          <motion.div
-            initial={{ opacity: 0, height: 0 }}
-            animate={{ opacity: 1, height: "auto" }}
-            exit={{ opacity: 0, height: 0 }}
-            className="lg:hidden bg-white dark:bg-dark border-t border-gray-200 dark:border-dark-light"
-          >
-            <nav className="container-custom mx-auto px-4 py-4 space-y-1">
-              {navLinks.map((link) => (
-                <Link
-                  key={link.href}
-                  href={link.href}
-                  onClick={() => setIsMobileOpen(false)}
-                  className={`block px-4 py-3 rounded-lg text-base font-medium transition-all ${
-                    isActive(link.href)
-                      ? "text-accent bg-accent/10"
-                      : "text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-dark-light"
-                  }`}
-                >
-                  {link.label}
-                </Link>
-              ))}
-              <a
-                href="tel:+905435933566"
-                className="flex items-center gap-2 mt-4 bg-accent text-white px-4 py-3 rounded-lg font-semibold justify-center"
+      {isMobileOpen && (
+        <div
+          className="lg:hidden bg-white dark:bg-dark border-t border-gray-200 dark:border-dark-light"
+          style={{ animation: "fadeInDown 0.3s ease-out" }}
+        >
+          <nav className="container-custom mx-auto px-4 py-4 space-y-1">
+            {navLinks.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                onClick={() => setIsMobileOpen(false)}
+                className={`block px-4 py-3 rounded-lg text-base font-medium transition-all ${
+                  isActive(link.href)
+                    ? "text-accent bg-accent/10"
+                    : "text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-dark-light"
+                }`}
               >
-                <Phone size={18} />
-                {t("callUs")}: 0543 593 35 66
-              </a>
-            </nav>
-          </motion.div>
-        )}
-      </AnimatePresence>
+                {link.label}
+              </Link>
+            ))}
+            <a
+              href="tel:+905435933566"
+              className="flex items-center gap-2 mt-4 bg-accent text-white px-4 py-3 rounded-lg font-semibold justify-center"
+            >
+              <Phone size={18} />
+              {t("callUs")}: 0543 593 35 66
+            </a>
+          </nav>
+        </div>
+      )}
     </header>
   );
 }

@@ -9,7 +9,7 @@ const routes = [
   "/hakkimizda",
   "/hizmetlerimiz",
   "/urunlerimiz",
-  "/arac-parkuru",
+
   "/projelerimiz",
   "/iletisim",
 ];
