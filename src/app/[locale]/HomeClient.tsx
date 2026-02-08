@@ -2,6 +2,7 @@
 
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
+import Image from "next/image";
 import { motion } from "framer-motion";
 import ScrollAnimationWrapper from "@/components/ScrollAnimationWrapper";
 import CounterAnimation from "@/components/CounterAnimation";
@@ -137,6 +138,7 @@ export default function HomeClient() {
                 desc: t("featuredServices.sand.description"),
                 color: "from-accent to-amber-600",
                 featured: true,
+                image: "/images/services/kepcekamyon.jpg",
               },
               {
                 icon: Truck,
@@ -144,6 +146,7 @@ export default function HomeClient() {
                 desc: t("featuredServices.excavation.description"),
                 color: "from-primary to-primary-light",
                 featured: false,
+                image: "/images/services/kepcekamyonn2.jpg",
               },
               {
                 icon: Building2,
@@ -151,34 +154,49 @@ export default function HomeClient() {
                 desc: t("featuredServices.construction.description"),
                 color: "from-dark to-dark-light",
                 featured: false,
+                image: "/images/services/insaat.jpeg",
               },
             ].map((item, i) => (
               <ScrollAnimationWrapper key={i} delay={i * 0.15}>
                 <div
-                  className={`card-base p-8 h-full group ${
-                    item.featured ? "ring-2 ring-accent relative overflow-hidden" : ""
+                  className={`card-base p-8 h-full group relative overflow-hidden ${
+                    item.featured ? "ring-2 ring-accent" : ""
                   }`}
                 >
+                  {item.image && (
+                    <>
+                      <Image
+                        src={item.image}
+                        alt={item.title}
+                        fill
+                        className="object-cover opacity-30 group-hover:opacity-55 transition-opacity duration-500"
+                        sizes="(max-width: 768px) 100vw, 33vw"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-[var(--card)] via-[var(--card)]/70 to-[var(--card)]/40 group-hover:from-black/70 group-hover:via-black/50 group-hover:to-black/30 transition-all duration-500" />
+                    </>
+                  )}
                   {item.featured && (
-                    <div className="absolute top-0 right-0 bg-accent text-white text-xs font-bold px-3 py-1 rounded-bl-lg">
+                    <div className="absolute top-0 right-0 bg-accent text-white text-xs font-bold px-3 py-1 rounded-bl-lg z-10">
                       #1
                     </div>
                   )}
-                  <div
-                    className={`w-14 h-14 rounded-xl bg-gradient-to-br ${item.color} flex items-center justify-center mb-6 group-hover:scale-110 transition-transform`}
-                  >
-                    <item.icon size={28} className="text-white" />
+                  <div className="relative z-10">
+                    <div
+                      className={`w-14 h-14 rounded-xl bg-gradient-to-br ${item.color} flex items-center justify-center mb-6 group-hover:scale-110 transition-transform`}
+                    >
+                      <item.icon size={28} className="text-white" />
+                    </div>
+                    <h3 className={`text-xl font-bold mb-3 transition-colors duration-500 ${item.image ? "group-hover:text-white" : ""}`}>{item.title}</h3>
+                    <p className={`text-[var(--muted-foreground)] text-sm leading-relaxed mb-6 transition-colors duration-500 ${item.image ? "group-hover:text-gray-200" : ""}`}>
+                      {item.desc}
+                    </p>
+                    <Link
+                      href="/hizmetlerimiz"
+                      className="inline-flex items-center gap-1 text-accent font-semibold text-sm hover:gap-2 transition-all"
+                    >
+                      {t("featuredServices.learnMore")} <ChevronRight size={16} />
+                    </Link>
                   </div>
-                  <h3 className="text-xl font-bold mb-3">{item.title}</h3>
-                  <p className="text-[var(--muted-foreground)] text-sm leading-relaxed mb-6">
-                    {item.desc}
-                  </p>
-                  <Link
-                    href="/hizmetlerimiz"
-                    className="inline-flex items-center gap-1 text-accent font-semibold text-sm hover:gap-2 transition-all"
-                  >
-                    {t("featuredServices.learnMore")} <ChevronRight size={16} />
-                  </Link>
                 </div>
               </ScrollAnimationWrapper>
             ))}

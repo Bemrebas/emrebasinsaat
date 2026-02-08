@@ -2,6 +2,7 @@
 
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
+import Image from "next/image";
 import ScrollAnimationWrapper from "@/components/ScrollAnimationWrapper";
 import {
   Mountain,
@@ -23,30 +24,35 @@ export default function PageClient() {
       icon: Mountain,
       color: "from-accent to-amber-600",
       featured: true,
+      image: "/images/services/kepcekamyon.jpg",
     },
     {
       key: "excavation",
       icon: Shovel,
       color: "from-primary to-primary-light",
       featured: false,
+      image: "/images/services/kepcekamyonn2.jpg",
     },
     {
       key: "rental",
       icon: Truck,
       color: "from-emerald-600 to-green-700",
       featured: false,
+      image: "/images/services/kepcelervekamyonlar.jpg",
     },
     {
       key: "transport",
       icon: Package,
       color: "from-blue-600 to-blue-800",
       featured: false,
+      image: "/images/services/nakliye.jpg",
     },
     {
       key: "construction",
       icon: Building2,
       color: "from-gray-600 to-gray-800",
       featured: false,
+      image: "/images/services/insaat.jpeg",
     },
   ];
 
@@ -87,10 +93,25 @@ export default function PageClient() {
                     </div>
                   )}
                   <div className={`grid lg:grid-cols-2 ${i % 2 !== 0 ? "lg:flex-row-reverse" : ""}`}>
-                    {/* Image placeholder */}
-                    <div className={`h-64 lg:h-auto bg-gradient-to-br ${service.color} flex items-center justify-center relative overflow-hidden ${i % 2 !== 0 ? "lg:order-2" : ""}`}>
-                      <service.icon size={80} className="text-white/30" />
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
+                    {/* Image */}
+                    <div className={`h-64 lg:h-auto min-h-[300px] relative overflow-hidden ${i % 2 !== 0 ? "lg:order-2" : ""} ${!service.image ? `bg-gradient-to-br ${service.color} flex items-center justify-center` : ""}`}>
+                      {service.image ? (
+                        <>
+                          <Image
+                            src={service.image}
+                            alt={t(`${service.key}.title`)}
+                            fill
+                            className="object-cover"
+                            sizes="(max-width: 1024px) 100vw, 50vw"
+                          />
+                          <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
+                        </>
+                      ) : (
+                        <>
+                          <service.icon size={80} className="text-white/30" />
+                          <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
+                        </>
+                      )}
                     </div>
 
                     {/* Content */}
