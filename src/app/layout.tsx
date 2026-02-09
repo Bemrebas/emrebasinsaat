@@ -2,9 +2,17 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Emrebaş İnşaat ve Madencilik - Yozgat Kum Ocağı, Çakıl ve Hafriyat Hizmetleri",
+  title: "Emrebaş İnşaat - Yozgat Kum Ocağı, Çakıl ve Hafriyat Hizmetleri",
   description: "Yozgat ve Yerköy'de 40+ yıllık tecrübe ile kum ocağı, çakıl satışı, hafriyat ve nakliye hizmetleri. Kaliteli inşaat malzemeleri için bizi arayın!",
   metadataBase: new URL("https://emrebasinsaat.com"),
+  icons: {
+    icon: [
+      { url: "/images/logo.png", type: "image/png", sizes: "512x512" },
+      { url: "/favicon.svg", type: "image/svg+xml" },
+    ],
+    shortcut: [{ url: "/images/logo.png" }],
+    apple: [{ url: "/images/logo.png", sizes: "512x512" }],
+  },
   robots: {
     index: true,
     follow: true,

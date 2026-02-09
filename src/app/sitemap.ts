@@ -26,7 +26,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   for (const route of routes) {
     for (const locale of locales) {
-      const languages: Record<string, string> = {};
+      const languages: Record<string, string> = {
+        "x-default": getUrl(defaultLocale, route),
+      };
       for (const l of locales) {
         languages[l] = getUrl(l, route);
       }

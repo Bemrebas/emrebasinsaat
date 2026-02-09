@@ -1,7 +1,9 @@
 {
-  "name": "Emrebaş İnşaat ve Madencilik",
+  "name": "Emrebaş İnşaat - Yozgat Kum Ocağı, Çakıl ve Hafriyat Hizmetleri",
   "short_name": "Emrebaş",
-  "description": "Yozgat Yerköy - Kum Ocağı, Hafriyat, İnşaat ve Madencilik Hizmetleri",
+  "description": "Yozgat ve Yerköy'de 40+ yıllık tecrübe ile kum ocağı, çakıl satışı, hafriyat ve nakliye hizmetleri.",
+  "lang": "tr",
+  "dir": "ltr",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#1a237e",

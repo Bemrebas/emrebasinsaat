@@ -32,10 +32,14 @@ export async function generateMetadata({
     authors: [{ name: "Emrebaş İnşaat ve Madencilik" }],
     icons: {
       icon: [
+        { url: "/images/logo.png", type: "image/png", sizes: "512x512" },
         { url: "/favicon.svg", type: "image/svg+xml" },
       ],
-      apple: [
+      shortcut: [
         { url: "/images/logo.png" },
+      ],
+      apple: [
+        { url: "/images/logo.png", sizes: "512x512" },
       ],
     },
     manifest: "/manifest.json",
@@ -64,6 +68,7 @@ export async function generateMetadata({
     alternates: {
       canonical: locale === "tr" ? "https://emrebasinsaat.com" : `https://emrebasinsaat.com/${locale}`,
       languages: {
+        "x-default": "https://emrebasinsaat.com",
         tr: "https://emrebasinsaat.com",
         en: "https://emrebasinsaat.com/en",
         ar: "https://emrebasinsaat.com/ar",
@@ -96,10 +101,10 @@ export default async function LocaleLayout({
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "@id": "https://emrebasinsaat.com/#business",
-    name: "Emrebaş İnşaat ve Madencilik",
-    alternateName: "Emrebaş İnşaat - Kum Ocağı & Hafriyat",
+    name: "Emrebaş İnşaat - Kum Ocağı & Hafriyat",
+    alternateName: "Emrebaş İnşaat ve Madencilik",
     description:
-      "Yozgat Yerköy'de 40+ yıllık ticari geçmiş ve 20+ yıllık sektör tecrübesi ile hafriyat, kum ocağı, çakıl satışı, mıcır satışı, taş kırma, nakliye ve inşaat hizmetleri.",
+      "Yozgat ve Yerköy'de 40+ yıllık tecrübe ile kum ocağı, çakıl satışı, hafriyat ve nakliye hizmetleri. Kaliteli inşaat malzemeleri için bizi arayın!",
     url: "https://emrebasinsaat.com",
     logo: "https://emrebasinsaat.com/images/logo.png",
     image: "https://emrebasinsaat.com/images/og-image.png",
@@ -178,7 +183,7 @@ export default async function LocaleLayout({
     name: "Emrebaş İnşaat ve Madencilik",
     url: "https://emrebasinsaat.com",
     publisher: { "@id": "https://emrebasinsaat.com/#organization" },
-    inLanguage: ["tr", "en", "ar"],
+    inLanguage: "tr",
   };
 
   return (
@@ -188,8 +193,10 @@ export default async function LocaleLayout({
         <meta name="theme-color" content="#1b2838" />
         <link rel="preload" as="image" href="/images/logo.png" />
         <meta name="msapplication-TileColor" content="#1b2838" />
-        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-        <link rel="apple-touch-icon" href="/images/logo.png" />
+        <link rel="icon" type="image/png" href="/images/logo.png" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="shortcut icon" href="/images/logo.png" />
+        <link rel="apple-touch-icon" sizes="512x512" href="/images/logo.png" />
         <link rel="manifest" href="/manifest.json" />
         <script
           type="application/ld+json"
