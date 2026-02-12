@@ -1,53 +1,51 @@
 {
   "meta": {
-    "title": "Emrebaş İnşaat - Yozgat Kum Ocağı, Çakıl ve Hafriyat Hizmetleri",
-    "description": "Yozgat ve Yerköy'de 40+ yıllık tecrübe ile kum ocağı, çakıl satışı, hafriyat ve nakliye hizmetleri. Kaliteli inşaat malzemeleri için bizi arayın!",
-    "keywords": "Yozgat hafriyat, Yerköy kum ocağı, mıcır satış, kum satış, çakıl satış, taş kırma, hafriyat firması, inşaat malzemesi, kırılmış taş, agrega, Yozgat inşaat, Yerköy hafriyat"
+    "title": "Kum, Çakıl ve Hafriyat - Yozgat | Emrebaş İnşaat",
+    "description": "Yozgat'ta kum, çakıl ve hafriyat ihtiyaçlarınız için Emrebaş İnşaat hizmetinizde. Yozgat kum ocağı, çakıl satışı, hafriyat ve nakliye hizmetlerinde 20+ yıllık tecrübe.",
+    "keywords": "Yozgat kum, Yozgat hafriyat, Yozgat çakıl, Yozgat kum ocağı, Yerköy kum, Yerköy hafriyat, kum satışı Yozgat, hafriyat firması Yozgat, çakıl satışı Yozgat, mıcır satışı, kum fiyatları Yozgat, hafriyat fiyatları Yozgat, Yozgat inşaat malzemesi, kum çakıl hafriyat"
   },
   "nav": {
     "home": "Ana Sayfa",
     "about": "Hakkımızda",
     "services": "Hizmetlerimiz",
     "products": "Ürünlerimiz",
-
     "projects": "Projelerimiz",
     "contact": "İletişim",
-    "callUs": "Bizi Arayın",
-    "language": "Dil"
+    "callUs": "Bizi Arayın"
   },
   "hero": {
-    "title": "Yozgat'ın Güvenilir Kum Ocağı ve Hafriyat Firması",
+    "title": "Yozgat Kum Ocağı, Çakıl Satışı ve Hafriyat",
     "subtitle": "Emrebaş İnşaat ve Madencilik",
-    "description": "Yozgat Yerköy'de 20 yılı aşkın tecrübemizle hafriyat, kum ocağı, çakıl ve mıcır üretimi, nakliye ve inşaat sektöründe güvenilir çözüm ortağınız.",
+    "description": "Yozgat'ta kum, çakıl ve hafriyat ihtiyaçlarınız için Emrebaş İnşaat hizmetinizde. Yozgat'ta kum arıyorsanız doğru yerdesiniz. 20 yılı aşkın tecrübemizle Yozgat hafriyat hizmetleri, kum ocağı işletmeciliği ve çakıl satışında güvenilir çözüm ortağınızız.",
     "getQuote": "Teklif Al",
     "callUs": "Bizi Arayın"
   },
   "featuredServices": {
-    "title": "Öne Çıkan Hizmetlerimiz",
-    "subtitle": "Profesyonel çözümlerimizle hizmetinizdeyiz",
+    "title": "Yozgat Kum, Çakıl ve Hafriyat Hizmetlerimiz",
+    "subtitle": "Yozgat'ın en kaliteli kumu ve profesyonel hafriyat çözümleriyle hizmetinizdeyiz",
     "sand": {
       "title": "Kum, Çakıl ve Mıcır Satışı",
-      "description": "Kum ocağımızdan üretilen kaliteli kum, çakıl ve mıcır ürünlerini toptan ve perakende olarak sunuyoruz. Her boyutta agrega üretimi yapıyoruz."
+      "description": "Yozgat kum ocağımızdan üretilen kaliteli kum, çakıl ve mıcır ürünlerini toptan ve perakende sunuyoruz. Yozgat'ın en kaliteli kumu ile inşaat projeleriniz için her boyutta kum ve çakıl üretimi yapıyoruz."
     },
     "excavation": {
-      "title": "Hafriyat ve Makine Kiralama",
-      "description": "Ekskavatör, loder ve kamyonlarımızla kazı, dolgu, arazi düzenleme ve hafriyat hizmetleri. Operatörlü ve operatörsüz kiralama."
+      "title": "Yozgat Hafriyat Hizmetleri",
+      "description": "Yozgat hafriyat hizmetlerinde lider firmayız. Ekskavatör, loder ve kamyonlarımızla kazı, dolgu, arazi düzenleme ve hafriyat işlerinizi profesyonelce gerçekleştiriyoruz."
     },
     "construction": {
       "title": "İnşaat Hizmetleri",
-      "description": "Konut inşaatı ve altyapı projelerinde kapsamlı çözümler sunuyoruz. Temel atma, kaba inşaat ve tamamlama işleri."
+      "description": "Yozgat'ta konut inşaatı ve altyapı projelerinde kum, çakıl tedariği ile birlikte kapsamlı hafriyat ve inşaat çözümleri sunuyoruz."
     },
     "learnMore": "Detaylı Bilgi"
   },
   "products": {
     "meta": {
-      "title": "Ürünlerimiz - Kum, Çakıl, Mıcır Satışı | Emrebaş İnşaat Yozgat",
-      "description": "Yozgat'ta kaliteli 0-3mm kum, 7-15mm ve 15-30mm çakıl, kırma taş satışı. Emrebaş İnşaat'tan hemen teklif alın!"
+      "title": "Kum, Çakıl, Mıcır Satışı Yozgat | Emrebaş İnşaat",
+      "description": "Yozgat'ta kum arıyorsanız doğru yerdesiniz. Kaliteli 0-3mm kum, çakıl, mıcır ve kırma taş satışı. Yozgat'ın en kaliteli kumu Emrebaş İnşaat'ta. Hemen teklif alın!"
     },
     "title": "Ürünlerimiz",
-    "subtitle": "Kum ocağımızdan üretilen kaliteli agrega ürünleri",
-    "pageTitle": "Kum, Çakıl ve İnşaat Malzemeleri",
-    "pageSubtitle": "Yozgat Yerköy kum ocağı ve taş kırma tesisimizden üretilen kaliteli agrega ürünleri",
+    "subtitle": "Yozgat kum ocağımızdan üretilen kaliteli kum, çakıl ve agrega ürünleri",
+    "pageTitle": "Yozgat Kum, Çakıl ve İnşaat Malzemeleri",
+    "pageSubtitle": "Yozgat Yerköy kum ocağı ve taş kırma tesisimizden üretilen kaliteli kum, çakıl ve agrega ürünleri. Yozgat'ta kum arıyorsanız doğru yerdesiniz.",
     "getQuote": "Fiyat Teklifi Al",
     "whatsappQuote": "WhatsApp ile Teklif Al",
     "usageAreas": "Kullanım Alanları",
@@ -56,37 +54,37 @@
     "items": {
       "sand": {
         "name": "0-3mm İnce Kum",
-        "description": "İnşaat ve sıva işleri için ideal ince kum. Yüksek kaliteli, temiz ve katkısız.",
+        "description": "Yozgat kum ocağımızdan üretilen inşaat ve sıva işleri için ideal ince kum. Yozgat'ın en kaliteli kumu, temiz ve katkısız.",
         "usage": "Sıva işleri, ince beton, derz dolgusu, harç yapımı",
-        "alt": "0-3mm ince kum Yozgat - Emrebaş İnşaat",
+        "alt": "0-3mm ince kum Yozgat - Emrebaş İnşaat kum satışı",
         "size": "0-3mm"
       },
       "gravel7": {
         "name": "7-15mm Orta Çakıl",
-        "description": "Beton üretimi ve temel dolgusu için standart ölçü çakıl.",
+        "description": "Yozgat çakıl satışında kaliteli beton üretimi ve temel dolgusu için standart ölçü çakıl.",
         "usage": "Beton üretimi, zemin dolgusu, drenaj, peyzaj",
-        "alt": "7-15mm orta çakıl Yozgat - Emrebaş İnşaat",
+        "alt": "7-15mm orta çakıl Yozgat - Emrebaş İnşaat çakıl satışı",
         "size": "7-15mm"
       },
       "gravel15": {
         "name": "15-30mm İri Çakıl",
-        "description": "Ağır beton ve temel işleri için dayanıklı iri çakıl.",
+        "description": "Yozgat'ta ağır beton ve temel işleri için dayanıklı iri çakıl. Hafriyat ve altyapı projelerinde tercih edilen çakıl.",
         "usage": "Ağır beton, temel dolgusu, yol yapımı, altyapı projeleri",
-        "alt": "15-30mm iri çakıl Yozgat - Emrebaş İnşaat",
+        "alt": "15-30mm iri çakıl Yozgat - Emrebaş İnşaat hafriyat",
         "size": "15-30mm"
       },
       "crushed": {
         "name": "Kırma Taş",
-        "description": "Yol yapımı ve stabilize için yüksek mukavemetli kırma taş.",
+        "description": "Yozgat hafriyat ve yol yapımı projelerinde kullanılan yüksek mukavemetli kırma taş.",
         "usage": "Yol altı dolgusu, stabilize, temel güçlendirme, gabion dolgu",
-        "alt": "Kırma taş Yozgat - Emrebaş İnşaat",
+        "alt": "Kırma taş Yozgat - Emrebaş İnşaat hafriyat malzemeleri",
         "size": "Özel"
       },
       "rubble": {
         "name": "İnşaat Molozu",
-        "description": "Dolgu ve temel işleri için ekonomik moloz malzeme.",
+        "description": "Yozgat hafriyat projelerinde dolgu ve temel işleri için ekonomik moloz malzeme.",
         "usage": "Arazi dolgusu, temel altı, stabilize, arazi düzenleme",
-        "alt": "İnşaat molozu Yozgat - Emrebaş İnşaat",
+        "alt": "İnşaat molozu Yozgat - Emrebaş İnşaat hafriyat hizmetleri",
         "size": "30mm+"
       }
     }
@@ -100,124 +98,124 @@
   },
   "references": {
     "title": "Referanslarımız",
-    "subtitle": "Güvenilir iş ortaklıklarımız",
+    "subtitle": "Yozgat kum, çakıl ve hafriyat sektöründe güvenilir iş ortaklıklarımız",
     "municipalities": "Belediyeler",
-    "municipalitiesDesc": "Yozgat ve çevre illerdeki belediyelerle altyapı ve üstyapı projelerinde iş birliği",
+    "municipalitiesDesc": "Yozgat ve çevre illerdeki belediyelerle kum tedariği, hafriyat ve altyapı projelerinde iş birliği yapıyoruz.",
     "infrastructure": "Şehir Altyapı Projeleri",
-    "infrastructureDesc": "Yol yapım, kanalizasyon ve su şebekesi projelerinde malzeme tedariği ve hafriyat hizmeti",
+    "infrastructureDesc": "Yozgat hafriyat hizmetleri kapsamında yol yapım, kanalizasyon projelerinde kum, çakıl tedariği ve hafriyat hizmeti sağlıyoruz.",
     "solar": "GES Tesisleri",
-    "solarDesc": "Güneş Enerjisi Santrali tesis alanı hazırlama, kazı ve düzleme çalışmaları"
+    "solarDesc": "Güneş Enerjisi Santrali tesis alanı hazırlama, hafriyat kazı ve düzleme çalışmalarında kum ve çakıl tedariği yapıyoruz."
   },
   "cta": {
-    "title": "Fiyat Teklifi Almak İçin Hemen Arayın",
-    "description": "Kum, mıcır, hafriyat ve tüm hizmetlerimiz için en uygun fiyat teklifini almak için bizi arayın.",
+    "title": "Yozgat Kum, Çakıl ve Hafriyat İçin Hemen Arayın",
+    "description": "Yozgat'ta kum, çakıl, mıcır, hafriyat ve tüm hizmetlerimiz için en uygun fiyat teklifini almak için bizi arayın. Yozgat hafriyat hizmetlerinde güvenilir adresiniz.",
     "phone": "0543 593 35 66",
     "orContact": "veya online teklif formumuzu doldurun",
     "contactForm": "İletişim Formu"
   },
   "about": {
     "meta": {
-      "title": "Hakkımızda - Emrebaş İnşaat | Yozgat Yerköy Hafriyat",
-      "description": "Emrebaş İnşaat ve Madencilik hakkında bilgi edinin. 40+ yıllık ticari geçmiş ve 20+ yıllık sektör tecrübesiyle Yozgat Yerköy'de güvenilir hafriyat ve kum ocağı hizmetleri."
+      "title": "Hakkımızda - Yozgat Kum Ocağı ve Hafriyat Firması | Emrebaş İnşaat",
+      "description": "Yozgat'ta kum, çakıl ve hafriyat sektöründe 20+ yıllık tecrübe. Emrebaş İnşaat, Yozgat'ın güvenilir kum ocağı ve hafriyat firması."
     },
     "pageTitle": "Hakkımızda",
-    "pageSubtitle": "40 yılı aşkın ticari geçmiş, 20+ yıl sektör tecrübesiyle güvenilir çözüm ortağınız",
+    "pageSubtitle": "Yozgat'ta kum, çakıl ve hafriyat sektöründe 20+ yıllık tecrübe ile güvenilir çözüm ortağınız",
     "story": {
       "title": "Şirket Hikayemiz",
-      "p1": "Emrebaş ailesinin hikayesi, 1980'lerde Yozgat Yerköy'de zahirecilik ile başladı. Babadan oğula aktarılan ticari tecrübe ve girişimcilik ruhu, 2000'li yılların başında hafriyat ve nakliye sektörüne adım atmamızla yeni bir boyut kazandı.",
-      "p2": "Küçük bir kamyon ve büyük bir azimle yola çıkan firmamız, bölgenin artan altyapı ihtiyaçlarına yanıt vererek hızla büyüdü. 2010'lu yıllarda kum ocağı ve taş ocağı işletmeciliğine başlamamız, şirketimizi bölgenin en kapsamlı inşaat malzemesi tedarikçilerinden biri haline getirdi.",
-      "p3": "Bugün 40 yılı aşkın ticari geçmişimiz ve 20 yılı aşkın sektör tecrübemizle, Yozgat ve çevre illerde hafriyat, kum-mıcır üretimi, nakliye ve inşaat hizmetleri sunuyoruz. Belediyelerden GES projelerine, konut inşaatından altyapı çalışmalarına kadar geniş bir yelpazede güvenilir çözüm ortağıyız.",
-      "p4": "Emrebaş olarak, aile şirketi sıcaklığını profesyonel hizmet anlayışıyla birleştiriyoruz. Her projede sözümüze sadık, işimize güvenilir yaklaşımımızla müşterilerimizin yanındayız."
+      "p1": "Emrebaş ailesinin hikayesi, 1980'lerde Yozgat Yerköy'de zahirecilik ile başladı. Babadan oğula aktarılan ticari tecrübe ve girişimcilik ruhu, 2000'li yılların başında Yozgat hafriyat ve nakliye sektörüne adım atmamızla yeni bir boyut kazandı.",
+      "p2": "Küçük bir kamyon ve büyük bir azimle yola çıkan firmamız, Yozgat'ın artan kum, çakıl ve hafriyat ihtiyaçlarına yanıt vererek hızla büyüdü. 2010'lu yıllarda Yozgat kum ocağı ve taş ocağı işletmeciliğine başlamamız, şirketimizi bölgenin en kapsamlı kum ve çakıl tedarikçilerinden biri haline getirdi.",
+      "p3": "Bugün 20 yılı aşkın sektör tecrübemizle, Yozgat ve çevre illerde hafriyat, kum ve çakıl üretimi, nakliye ve inşaat hizmetleri sunuyoruz. Belediyelerden GES projelerine, konut inşaatından altyapı çalışmalarına kadar geniş bir yelpazede Yozgat'ın güvenilir kum ve hafriyat çözüm ortağıyız.",
+      "p4": "Emrebaş olarak, Yozgat'ta kum arıyorsanız doğru yerdesiniz anlayışıyla çalışıyoruz. Her projede kum, çakıl ve hafriyat hizmetlerimizle sözümüze sadık, işimize güvenilir yaklaşımımızla müşterilerimizin yanındayız."
     },
     "mission": {
       "title": "Misyonumuz",
-      "text": "Kaliteli malzeme ve güvenilir hizmet anlayışıyla müşterilerimizin projelerini zamanında ve bütçeye uygun şekilde tamamlamak. Her projede en yüksek standartlarda iş güvenliği ve çevre bilinci ile çalışmak."
+      "text": "Yozgat'ta kaliteli kum, çakıl ve güvenilir hafriyat hizmeti anlayışıyla müşterilerimizin projelerini zamanında ve bütçeye uygun şekilde tamamlamak. Her kum tedariği ve hafriyat projesinde en yüksek standartlarda iş güvenliği ve çevre bilinci ile çalışmak."
     },
     "vision": {
       "title": "Vizyonumuz",
-      "text": "Bölgenin en büyük ve en güvenilir hafriyat ve madencilik şirketi olarak, modern teknoloji ve profesyonel ekibimizle sektörde öncü olmak."
+      "text": "Yozgat'ın en büyük ve en güvenilir kum ocağı ve hafriyat firması olarak, modern teknoloji ve profesyonel ekibimizle sektörde öncü olmak."
     },
     "values": {
       "title": "Değerlerimiz",
       "reliability": "Güvenilirlik",
-      "reliabilityDesc": "Sözümüze sadık, işimize güvenilir yaklaşımımız",
+      "reliabilityDesc": "Yozgat kum ve hafriyat hizmetlerinde sözümüze sadık yaklaşımımız",
       "quality": "Kalite",
-      "qualityDesc": "Her projede en yüksek kalite standartları",
+      "qualityDesc": "Her kum, çakıl ve hafriyat projesinde en yüksek kalite standartları",
       "delivery": "Zamanında Teslimat",
-      "deliveryDesc": "Projelerin zamanında teslim edilmesi garantisi",
+      "deliveryDesc": "Kum, çakıl ve hafriyat projelerinin zamanında teslim edilmesi garantisi",
       "satisfaction": "Müşteri Memnuniyeti",
-      "satisfactionDesc": "Müşterilerimizin memnuniyeti en büyük önceliğimiz"
+      "satisfactionDesc": "Yozgat'ta kum ve hafriyat müşterilerimizin memnuniyeti en büyük önceliğimiz"
     }
   },
   "services": {
     "meta": {
-      "title": "Hizmetlerimiz - Kum Ocağı, Hafriyat, Nakliye | Emrebaş İnşaat",
-      "description": "Kum ocağı işletmeciliği, taş ocağı, hafriyat, nakliye ve inşaat malzemeleri. Yozgat ve Yerköy'de profesyonel hizmet."
+      "title": "Yozgat Kum Ocağı, Hafriyat, Çakıl Satışı | Emrebaş İnşaat",
+      "description": "Yozgat hafriyat hizmetleri, kum ocağı işletmeciliği, çakıl ve mıcır satışı. Yozgat'ta kum arıyorsanız doğru yerdesiniz. Profesyonel hafriyat hizmetleri."
     },
-    "pageTitle": "Hizmetlerimiz",
-    "pageSubtitle": "Kapsamlı hizmet yelpazemizle projelerinize değer katıyoruz",
+    "pageTitle": "Yozgat Kum ve Hafriyat Hizmetlerimiz",
+    "pageSubtitle": "Yozgat'ta kum, çakıl ve hafriyat hizmetlerimizle projelerinize değer katıyoruz",
     "quarry": {
-      "title": "Kum Ocağı ve Taş Kırma Tesisi",
-      "description": "Kum eleme ve taş kırma tesisimizle her boyutta agrega üretimi yapıyoruz. İnşaat, yol yapım ve altyapı projelerine toptan ve perakende malzeme tedariği sağlıyoruz.",
-      "features": ["0-3mm Kum üretimi ve satışı", "7-15mm Mıcır üretimi", "15-30mm Mıcır üretimi", "Elek Üstü Moloz", "Özel boyutlarda kırılmış malzeme", "Toptan ve perakende satış"]
+      "title": "Yozgat Kum Ocağı ve Taş Kırma Tesisi",
+      "description": "Yozgat kum ocağımızda kum eleme ve taş kırma tesisimizle her boyutta kum ve çakıl üretimi yapıyoruz. Yozgat'ın en kaliteli kumu ile inşaat, yol yapım ve altyapı projelerine toptan ve perakende kum ve çakıl tedariği sağlıyoruz.",
+      "features": ["Yozgat'ta 0-3mm kum üretimi ve satışı", "7-15mm çakıl ve mıcır üretimi", "15-30mm iri çakıl üretimi", "Elek üstü moloz - hafriyat malzemesi", "Özel boyutlarda kırılmış kum ve çakıl", "Yozgat genelinde toptan kum ve çakıl satışı"]
     },
     "excavation": {
-      "title": "Hafriyat Hizmetleri",
-      "description": "Profesyonel ekip ve modern ekipmanlarımızla her ölçekte hafriyat hizmeti sunuyoruz.",
-      "features": ["Kazı ve dolgu işleri", "Arazi düzenleme ve tesviye", "Altyapı kazı işleri", "GES tesis alanı hazırlama", "Kanal açma ve boru döşeme", "Yıkım ve söküm işleri"]
+      "title": "Yozgat Hafriyat Hizmetleri",
+      "description": "Yozgat hafriyat hizmetlerinde profesyonel ekip ve modern ekipmanlarımızla her ölçekte hafriyat hizmeti sunuyoruz. Yozgat'ta hafriyat ihtiyaçlarınız için güvenilir çözüm ortağınızız.",
+      "features": ["Yozgat'ta kazı ve hafriyat dolgu işleri", "Arazi düzenleme ve hafriyat tesviye", "Altyapı hafriyat kazı işleri", "GES tesis alanı hafriyat hazırlama", "Kanal açma ve boru döşeme hafriyat", "Yıkım hafriyat ve söküm işleri"]
     },
     "rental": {
       "title": "İş Makinesi ve Kamyon Kiralama",
-      "description": "Geniş araç filomuzla iş makinesi ve kamyon kiralama hizmeti veriyoruz.",
+      "description": "Yozgat'ta kum, çakıl nakliyesi ve hafriyat işleri için geniş araç filomuzla iş makinesi ve kamyon kiralama hizmeti veriyoruz.",
       "features": ["3 Adet Ekskavatör", "2 Adet Loder", "3 Adet Kamyon", "1 Adet Tır", "1 Adet Havuz Dorse", "1 Adet Lowbed"],
-      "note": "Operatörlü ve operatörsüz kiralama seçenekleri mevcuttur."
+      "note": "Yozgat genelinde kum, çakıl nakliyesi ve hafriyat işleri için operatörlü ve operatörsüz kiralama seçenekleri mevcuttur."
     },
     "transport": {
-      "title": "Nakliye Hizmetleri",
-      "description": "Her türlü malzeme nakliyesini güvenle gerçekleştiriyoruz.",
-      "features": ["Kum, çakıl, mıcır nakliyesi", "Hafriyat nakliyesi", "Ağır yük taşımacılığı (lowbed)", "Şehir içi ve şehirler arası nakliye"]
+      "title": "Yozgat Kum ve Hafriyat Nakliye Hizmetleri",
+      "description": "Yozgat'ta kum, çakıl ve hafriyat nakliyesini güvenle gerçekleştiriyoruz.",
+      "features": ["Yozgat kum, çakıl, mıcır nakliyesi", "Hafriyat nakliyesi Yozgat", "Ağır yük taşımacılığı (lowbed)", "Yozgat şehir içi ve şehirler arası kum nakliyesi"]
     },
     "construction": {
-      "title": "İnşaat Hizmetleri",
-      "description": "Konut inşaatı ve tamamlanmış projelerimizle kaliteli yaşam alanları oluşturuyoruz.",
-      "features": ["Konut inşaatı", "Temel atma ve kaba inşaat", "Altyapı ve üstyapı işleri", "Proje yönetimi"]
+      "title": "Yozgat İnşaat Hizmetleri",
+      "description": "Yozgat'ta konut inşaatı projelerimizde kum, çakıl tedariği ve hafriyat hizmetleriyle kaliteli yaşam alanları oluşturuyoruz.",
+      "features": ["Yozgat konut inşaatı", "Temel hafriyat ve kaba inşaat", "Kum ve çakıl ile altyapı işleri", "Hafriyat dahil proje yönetimi"]
     },
     "getQuote": "Teklif Al"
   },
   "projectsPage": {
     "meta": {
-      "title": "Projelerimiz - Emrebaş İnşaat Yozgat | Kum Ocağı & Hafriyat",
-      "description": "20+ yıldır gerçekleştirdiğimiz başarılı hafriyat, kum ocağı ve inşaat projeleri. Yozgat'ın güvenilir çözüm ortağı."
+      "title": "Yozgat Kum Ocağı ve Hafriyat Projeleri | Emrebaş İnşaat",
+      "description": "Yozgat'ta 20+ yıldır gerçekleştirdiğimiz kum tedariği, çakıl satışı ve hafriyat projeleri. Yozgat hafriyat hizmetlerinde güvenilir çözüm ortağı."
     },
-    "pageTitle": "Projelerimiz",
-    "pageSubtitle": "Başarıyla tamamladığımız projelerden örnekler",
+    "pageTitle": "Yozgat Kum ve Hafriyat Projelerimiz",
+    "pageSubtitle": "Yozgat'ta kum, çakıl tedariği ve hafriyat hizmetleriyle başarıyla tamamladığımız projeler",
     "all": "Tümü",
     "excavation": "Hafriyat",
     "infrastructure": "Altyapı",
     "construction": "İnşaat",
     "solar": "GES Projeleri",
     "items": [
-      { "name": "Yozgat Havalimanı Projesi", "category": "infrastructure", "description": "Yozgat Havalimanı inşaat projesi kapsamında yaklaşık 50.000 ton 0-3mm kum tedariği sağlanmıştır.", "image": "/images/projects/yozgat-havalimani.jpeg" },
-      { "name": "MYSİLO Yerköy Projesi", "category": "excavation", "description": "MYSİLO Lisanslı Depoculuk A.Ş. Yerköy tesisi için 24 adet silo alanının hafriyat işleri tamamlanmıştır. Toplam yaklaşık 45.000 m³ kazı ve arazi düzenleme çalışması gerçekleştirilmiştir.", "image": "/images/projects/mysilo-yerkoy.jpg" },
-      { "name": "Ankara-Sivas YHT Projesi", "category": "infrastructure", "description": "Ankara-Sivas Yüksek Hızlı Tren hattı projesinde hafriyat işleri yürütülmüş, 50.000 ton elek üstü moloz ve 50.000 ton 15-30mm agrega tedariği sağlanmıştır.", "image": "/images/projects/ankara-sivas-yht.jpg" },
+      { "name": "Yozgat Havalimanı Projesi", "category": "infrastructure", "description": "Yozgat Havalimanı inşaat projesi kapsamında yaklaşık 50.000 ton 0-3mm kum tedariği sağlanmıştır. Yozgat'ın en büyük kum tedarik projelerinden biri.", "image": "/images/projects/yozgat-havalimani.jpeg" },
+      { "name": "MYSİLO Yerköy Projesi", "category": "excavation", "description": "MYSİLO Lisanslı Depoculuk A.Ş. Yerköy tesisi için 24 adet silo alanının hafriyat işleri tamamlanmıştır. Yozgat hafriyat hizmetleri kapsamında yaklaşık 45.000 m³ kazı ve arazi düzenleme çalışması.", "image": "/images/projects/mysilo-yerkoy.jpg" },
+      { "name": "Ankara-Sivas YHT Projesi", "category": "infrastructure", "description": "Ankara-Sivas Yüksek Hızlı Tren hattı projesinde hafriyat işleri yürütülmüş, 50.000 ton elek üstü moloz ve 50.000 ton 15-30mm çakıl tedariği sağlanmıştır.", "image": "/images/projects/ankara-sivas-yht.jpg" },
       { "name": "Şehit Mehmet Tez Anadolu Lisesi Projesi", "category": "construction", "description": "Yerköy Şehit Mehmet Tez Anadolu Lisesi inşaat projesinde kırıcı ile alan açma dahil hafriyat işleri gerçekleştirilmiş ve 0-3mm kum tedariği sağlanmıştır.", "image": "/images/projects/mehmet-tez-lisesi.jpg" },
       { "name": "Şehit Ferhat Gökdemir Mesleki ve Teknik Anadolu Lisesi Projesi", "category": "construction", "description": "Yerköy Şehit Ferhat Gökdemir Mesleki ve Teknik Anadolu Lisesi inşaat projesinde hafriyat ve zemin hazırlık işleri tarafımızca tamamlanmıştır.", "image": "/images/projects/meslek-lisesi.jpg" },
-      { "name": "Yerköy Şehit Korgeneral Osman Erbaş Devlet Hastanesi Projesi", "category": "construction", "description": "Yerköy Devlet Hastanesi inşaat projesinde hafriyat işleri gerçekleştirilmiş, 8.000 ton kum ve 5.000 ton çakıl tedariği sağlanmıştır.", "image": "/images/projects/yerkoy-hastane.jpg" },
-      { "name": "Yerköy 36 Dairelik Konut Projesi", "category": "construction", "description": "Yerköy'de birinci sınıf malzeme ve işçilikle inşa edilen 36 dairelik lüks konut projesi. Depreme dayanıklı betonarme yapı, modern mimari tasarım ve yüksek yaşam standartları ile tamamlanmıştır.", "image": "/images/services/insaat.jpeg" },
-      { "name": "OYAK GES Projesi", "category": "solar", "description": "Yozgat Saray'da kurulan OYAK Güneş Enerjisi Santrali projesinde belirli bölgelerin hafriyat, arazi düzenleme ve zemin hazırlık işleri tarafımızca gerçekleştirilmiştir.", "image": "/images/projects/oyak-ges.jpg" },
-      { "name": "Esatbeyoğlu Lidaş Projesi", "category": "excavation", "description": "Esatbeyoğlu Lidaş tesisinde 6 adet 40.000 tonluk silo alanının hafriyat işleri tamamlanmıştır. Silo tabanlarının sıkıştırma çalışmaları yapılmış ve yaklaşık 15.000 ton elek üstü moloz tedariği sağlanmıştır.", "image": "/images/projects/esatbeyoglu-lidas.jpg" },
-      { "name": "Yozgat İnandık Barajı", "category": "excavation", "description": "Yozgat İnandık Barajı projesinde hafriyat işleri gerçekleştirilmiş, Kırşehir'den 50.000 ton toz malzeme nakliyesi sağlanmıştır.", "image": "/images/projects/inandik-baraji.jpg" },
-      { "name": "MYSİLO Şefaatli Projesi", "category": "excavation", "description": "MYSİLO Lisanslı Depoculuk A.Ş. Şefaatli tesisi için 24 adet silo alanının hafriyat işleri yapılmıştır. Toplam yaklaşık 30.000 m³ kazı ve zemin hazırlığı çalışması tamamlanmıştır.", "image": "/images/projects/mysilo-sefaatli.jpg" },
-      { "name": "Yerköy Belediyesi Kanalizasyon Altyapı Mıcır Temini", "category": "infrastructure", "description": "Yerköy Belediyesi kanalizasyon altyapı projesi kapsamında 300.000 ton 5-12mm ve 15-25mm mıcır tedariği sağlanmıştır.", "image": "/images/projects/altyapi.jpg" }
+      { "name": "Yerköy Devlet Hastanesi Projesi", "category": "construction", "description": "Yerköy Devlet Hastanesi inşaat projesinde hafriyat işleri gerçekleştirilmiş, 8.000 ton kum ve 5.000 ton çakıl tedariği sağlanmıştır.", "image": "/images/projects/yerkoy-hastane.jpg" },
+      { "name": "Yerköy 36 Dairelik Konut Projesi", "category": "construction", "description": "Yerköy'de kum, çakıl tedariği ve hafriyat hizmetiyle birlikte inşa edilen 36 dairelik konut projesi. Depreme dayanıklı yapı, modern mimari ile tamamlanmıştır.", "image": "/images/services/insaat.jpeg" },
+      { "name": "OYAK GES Projesi", "category": "solar", "description": "Yozgat Saray'da kurulan OYAK Güneş Enerjisi Santrali projesinde hafriyat, arazi düzenleme ve kum tedariği işleri tarafımızca gerçekleştirilmiştir.", "image": "/images/projects/oyak-ges.jpg" },
+      { "name": "Esatbeyoğlu Lidaş Projesi", "category": "excavation", "description": "Esatbeyoğlu Lidaş tesisinde 6 adet 40.000 tonluk silo alanının hafriyat işleri tamamlanmış, kum ve çakıl tedariği ile birlikte yaklaşık 15.000 ton elek üstü moloz sağlanmıştır.", "image": "/images/projects/esatbeyoglu-lidas.jpg" },
+      { "name": "Yozgat İnandık Barajı", "category": "excavation", "description": "Yozgat İnandık Barajı projesinde hafriyat işleri gerçekleştirilmiş, kum ve çakıl nakliyesi ile birlikte Kırşehir'den 50.000 ton toz malzeme nakliyesi sağlanmıştır.", "image": "/images/projects/inandik-baraji.jpg" },
+      { "name": "MYSİLO Şefaatli Projesi", "category": "excavation", "description": "MYSİLO Lisanslı Depoculuk A.Ş. Şefaatli tesisi için 24 adet silo alanının hafriyat işleri yapılmıştır. Yozgat hafriyat hizmetleri kapsamında yaklaşık 30.000 m³ kazı ve kum tedariği.", "image": "/images/projects/mysilo-sefaatli.jpg" },
+      { "name": "Yerköy Belediyesi Altyapı Projesi", "category": "infrastructure", "description": "Yerköy Belediyesi kanalizasyon altyapı projesi kapsamında 300.000 ton mıcır ve çakıl tedariği sağlanmıştır. Yozgat'ın en büyük hafriyat ve kum tedarik projelerinden.", "image": "/images/projects/altyapi.jpg" }
     ]
   },
   "contact": {
     "meta": {
-      "title": "İletişim - Emrebaş İnşaat Yozgat | 0543 593 3566",
-      "description": "Yozgat Yerköy'de kum, çakıl ve hafriyat ihtiyaçlarınız için bize ulaşın. Hemen teklif alın!"
+      "title": "Yozgat Kum ve Hafriyat İletişim | Emrebaş İnşaat 0543 593 3566",
+      "description": "Yozgat'ta kum, çakıl ve hafriyat ihtiyaçlarınız için bize ulaşın. Yozgat'ta kum arıyorsanız doğru yerdesiniz. Hemen teklif alın!"
     },
     "pageTitle": "İletişim",
-    "pageSubtitle": "Bize ulaşın, projeleriniz için en uygun çözümü birlikte bulalım",
+    "pageSubtitle": "Yozgat'ta kum, çakıl ve hafriyat hizmetlerimiz için bize ulaşın",
     "info": "İletişim Bilgileri",
     "phone1": "Telefon",
     "phone2": "Telefon",
@@ -226,16 +224,16 @@
     "addressText": "Yozgat/Yerköy Kızıl Gedik Fabrika Sahası Ankara Yolu 5.km Yerköy",
     "hours": "Çalışma Saatleri",
     "hoursText": "Her gün, 24 saat açık",
-    "formTitle": "Bize Yazın",
+    "formTitle": "Yozgat Kum ve Hafriyat Teklif Formu",
     "name": "Adınız Soyadınız",
     "phone": "Telefon Numaranız",
     "emailField": "E-posta Adresiniz",
     "service": "Hizmet Seçin",
     "serviceOptions": {
-      "sand": "Kum/Mıcır Satış",
+      "sand": "Kum/Çakıl/Mıcır Satışı",
       "excavation": "Hafriyat Hizmeti",
       "rental": "Makine Kiralama",
-      "transport": "Nakliye",
+      "transport": "Kum/Hafriyat Nakliye",
       "construction": "İnşaat",
       "other": "Diğer"
     },
@@ -246,16 +244,16 @@
     "location": "Konumumuz"
   },
   "footer": {
-    "companyInfo": "Emrebaş İnşaat ve Madencilik, 20 yılı aşkın tecrübesiyle Yozgat ve çevre illerde hafriyat, kum ocağı, mıcır üretimi ve inşaat hizmetleri sunmaktadır.",
+    "companyInfo": "Emrebaş İnşaat ve Madencilik, 20 yılı aşkın tecrübesiyle Yozgat ve çevre illerde kum ocağı, çakıl satışı, hafriyat ve inşaat hizmetleri sunmaktadır. Yozgat'ta kum arıyorsanız doğru yerdesiniz.",
     "quickLinks": "Hızlı Linkler",
-    "ourServices": "Hizmetlerimiz",
+    "ourServices": "Kum ve Hafriyat Hizmetlerimiz",
     "contactInfo": "İletişim",
     "copyright": "Emrebaş İnşaat ve Madencilik © 2026. Tüm hakları saklıdır.",
-    "sandSales": "Kum ve Mıcır Satışı",
-    "excavationService": "Hafriyat Hizmetleri",
-    "machineRental": "Makine Kiralama",
-    "transportService": "Nakliye Hizmetleri",
-    "constructionService": "İnşaat Hizmetleri"
+    "sandSales": "Yozgat Kum ve Çakıl Satışı",
+    "excavationService": "Yozgat Hafriyat Hizmetleri",
+    "machineRental": "Hafriyat Makine Kiralama",
+    "transportService": "Kum ve Hafriyat Nakliye",
+    "constructionService": "Yozgat İnşaat Hizmetleri"
   },
   "notFound": {
     "title": "404 - Sayfa Bulunamadı",

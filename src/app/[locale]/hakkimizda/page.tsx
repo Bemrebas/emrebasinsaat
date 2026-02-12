@@ -11,26 +11,19 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const t = await getTranslations({ locale, namespace: "about.meta" });
   const path = "/hakkimizda";
-  const canonicalUrl = locale === "tr" ? `${baseUrl}${path}` : `${baseUrl}/${locale}${path}`;
 
   return {
     title: t("title"),
     description: t("description"),
     alternates: {
-      canonical: canonicalUrl,
-      languages: {
-        "x-default": `${baseUrl}${path}`,
-        tr: `${baseUrl}${path}`,
-        en: `${baseUrl}/en${path}`,
-        ar: `${baseUrl}/ar${path}`,
-      },
+      canonical: `${baseUrl}${path}`,
     },
     openGraph: {
       title: t("title"),
       description: t("description"),
-      url: canonicalUrl,
+      url: `${baseUrl}${path}`,
       type: "website",
-      locale: locale === "tr" ? "tr_TR" : locale === "en" ? "en_US" : "ar_SA",
+      locale: "tr_TR",
     },
   };
 }

@@ -8,7 +8,7 @@ import Footer from "@/components/Footer";
 import ScrollToTop from "@/components/ScrollToTop";
 import "../globals.css";
 
-const locales = ["tr", "en", "ar"];
+const locales = ["tr"];
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
@@ -46,16 +46,16 @@ export async function generateMetadata({
     openGraph: {
       title: t("title"),
       description: t("description"),
-      url: locale === "tr" ? "https://emrebasinsaat.com" : `https://emrebasinsaat.com/${locale}`,
+      url: "https://emrebasinsaat.com",
       siteName: "Emrebaş İnşaat ve Madencilik",
-      locale: locale === "tr" ? "tr_TR" : locale === "en" ? "en_US" : "ar_SA",
+      locale: "tr_TR",
       type: "website",
       images: [
         {
           url: "https://emrebasinsaat.com/images/og-image.png",
           width: 1200,
           height: 630,
-          alt: "Emrebaş İnşaat ve Madencilik - Yozgat Kum Ocağı & Hafriyat",
+          alt: "Emrebaş İnşaat - Yozgat Kum Ocağı, Çakıl ve Hafriyat",
         },
       ],
     },
@@ -66,13 +66,7 @@ export async function generateMetadata({
       images: ["/images/og-image.png"],
     },
     alternates: {
-      canonical: locale === "tr" ? "https://emrebasinsaat.com" : `https://emrebasinsaat.com/${locale}`,
-      languages: {
-        "x-default": "https://emrebasinsaat.com",
-        tr: "https://emrebasinsaat.com",
-        en: "https://emrebasinsaat.com/en",
-        ar: "https://emrebasinsaat.com/ar",
-      },
+      canonical: "https://emrebasinsaat.com",
     },
     robots: {
       index: true,
@@ -95,16 +89,15 @@ export default async function LocaleLayout({
 
   unstable_setRequestLocale(locale);
   const messages = await getMessages();
-  const isRTL = locale === "ar";
 
   const localBusinessSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "@id": "https://emrebasinsaat.com/#business",
-    name: "Emrebaş İnşaat - Kum Ocağı & Hafriyat",
+    name: "Emrebaş İnşaat - Yozgat Kum Ocağı, Çakıl ve Hafriyat",
     alternateName: "Emrebaş İnşaat ve Madencilik",
     description:
-      "Yozgat ve Yerköy'de 40+ yıllık tecrübe ile kum ocağı, çakıl satışı, hafriyat ve nakliye hizmetleri. Kaliteli inşaat malzemeleri için bizi arayın!",
+      "Yozgat'ta kum, çakıl ve hafriyat ihtiyaçlarınız için Emrebaş İnşaat hizmetinizde. Yozgat kum ocağı, çakıl satışı, hafriyat ve nakliye hizmetleri.",
     url: "https://emrebasinsaat.com",
     logo: "https://emrebasinsaat.com/images/logo.png",
     image: "https://emrebasinsaat.com/images/og-image.png",
@@ -123,6 +116,7 @@ export default async function LocaleLayout({
       "@type": "GeoCoordinates",
       latitude: 39.7236,
       longitude: 34.4531,
+      address: "Yozgat, Türkiye",
     },
     openingHoursSpecification: {
       "@type": "OpeningHoursSpecification",
@@ -137,16 +131,42 @@ export default async function LocaleLayout({
       { "@type": "City", name: "Kırıkkale" },
       { "@type": "City", name: "Ankara" },
     ],
+    makesOffer: [
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: "Kum",
+          description: "Yozgat kum ocağından üretilen kaliteli kum satışı",
+        },
+      },
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: "Çakıl",
+          description: "Yozgat'ta her boyutta çakıl ve mıcır satışı",
+        },
+      },
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: "Hafriyat",
+          description: "Yozgat hafriyat hizmetleri - kazı, dolgu ve arazi düzenleme",
+        },
+      },
+    ],
     hasOfferCatalog: {
       "@type": "OfferCatalog",
-      name: "Hizmetlerimiz",
+      name: "Yozgat Kum, Çakıl ve Hafriyat Hizmetleri",
       itemListElement: [
-        { "@type": "Offer", itemOffered: { "@type": "Service", name: "Kum Ocağı İşletmeciliği" } },
-        { "@type": "Offer", itemOffered: { "@type": "Service", name: "Hafriyat Hizmetleri" } },
-        { "@type": "Offer", itemOffered: { "@type": "Service", name: "Mıcır ve Çakıl Satışı" } },
-        { "@type": "Offer", itemOffered: { "@type": "Service", name: "Taş Kırma" } },
-        { "@type": "Offer", itemOffered: { "@type": "Service", name: "Nakliye Hizmetleri" } },
-        { "@type": "Offer", itemOffered: { "@type": "Service", name: "İnşaat Hizmetleri" } },
+        { "@type": "Offer", itemOffered: { "@type": "Service", name: "Yozgat Kum Ocağı İşletmeciliği" } },
+        { "@type": "Offer", itemOffered: { "@type": "Service", name: "Yozgat Hafriyat Hizmetleri" } },
+        { "@type": "Offer", itemOffered: { "@type": "Service", name: "Yozgat Çakıl ve Mıcır Satışı" } },
+        { "@type": "Offer", itemOffered: { "@type": "Service", name: "Taş Kırma ve Kum Üretimi" } },
+        { "@type": "Offer", itemOffered: { "@type": "Service", name: "Kum ve Hafriyat Nakliye Hizmetleri" } },
+        { "@type": "Offer", itemOffered: { "@type": "Service", name: "Yozgat İnşaat Hizmetleri" } },
         { "@type": "Offer", itemOffered: { "@type": "Service", name: "İş Makinesi Kiralama" } },
       ],
     },
@@ -164,7 +184,7 @@ export default async function LocaleLayout({
       "@type": "ContactPoint",
       telephone: "+905435933566",
       contactType: "customer service",
-      availableLanguage: ["Turkish", "English", "Arabic"],
+      availableLanguage: ["Turkish"],
     },
     address: {
       "@type": "PostalAddress",
@@ -180,14 +200,14 @@ export default async function LocaleLayout({
     "@context": "https://schema.org",
     "@type": "WebSite",
     "@id": "https://emrebasinsaat.com/#website",
-    name: "Emrebaş İnşaat ve Madencilik",
+    name: "Emrebaş İnşaat - Yozgat Kum, Çakıl ve Hafriyat",
     url: "https://emrebasinsaat.com",
     publisher: { "@id": "https://emrebasinsaat.com/#organization" },
     inLanguage: "tr",
   };
 
   return (
-    <html lang={locale} dir={isRTL ? "rtl" : "ltr"} suppressHydrationWarning>
+    <html lang="tr" dir="ltr" suppressHydrationWarning>
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#1b2838" />

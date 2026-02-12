@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Emrebaş İnşaat - Yozgat Kum Ocağı, Çakıl ve Hafriyat Hizmetleri",
-  description: "Yozgat ve Yerköy'de 40+ yıllık tecrübe ile kum ocağı, çakıl satışı, hafriyat ve nakliye hizmetleri. Kaliteli inşaat malzemeleri için bizi arayın!",
+  title: "Kum, Çakıl ve Hafriyat - Yozgat | Emrebaş İnşaat",
+  description: "Yozgat'ta kum, çakıl ve hafriyat ihtiyaçlarınız için Emrebaş İnşaat hizmetinizde. Yozgat kum ocağı, çakıl satışı, hafriyat ve nakliye hizmetleri.",
   metadataBase: new URL("https://emrebasinsaat.com"),
   icons: {
     icon: [

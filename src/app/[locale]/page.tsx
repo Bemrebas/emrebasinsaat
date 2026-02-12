@@ -10,27 +10,20 @@ export async function generateMetadata({
   params: { locale: string };
 }): Promise<Metadata> {
   const t = await getTranslations({ locale, namespace: "meta" });
-  const canonicalUrl = locale === "tr" ? baseUrl : `${baseUrl}/${locale}`;
 
   return {
     title: t("title"),
     description: t("description"),
     keywords: t("keywords"),
     alternates: {
-      canonical: canonicalUrl,
-      languages: {
-        "x-default": baseUrl,
-        tr: baseUrl,
-        en: `${baseUrl}/en`,
-        ar: `${baseUrl}/ar`,
-      },
+      canonical: baseUrl,
     },
     openGraph: {
       title: t("title"),
       description: t("description"),
-      url: canonicalUrl,
+      url: baseUrl,
       type: "website",
-      locale: locale === "tr" ? "tr_TR" : locale === "en" ? "en_US" : "ar_SA",
+      locale: "tr_TR",
     },
   };
 }

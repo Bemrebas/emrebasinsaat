@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { useTranslations } from "next-intl";
 import { useTheme } from "next-themes";
-import { usePathname, useRouter } from "next/navigation";
+import { usePathname } from "next/navigation";
 import { Link } from "@/i18n/navigation";
 import {
   Menu,
@@ -11,21 +11,15 @@ import {
   Sun,
   Moon,
   Phone,
-  ChevronDown,
-  Globe,
 } from "lucide-react";
-
-const localeLabels: Record<string, string> = { tr: "TR", en: "EN", ar: "AR" };
 
 export default function Header({ locale }: { locale: string }) {
   const t = useTranslations("nav");
   const { theme, setTheme } = useTheme();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileOpen, setIsMobileOpen] = useState(false);
-  const [isLangOpen, setIsLangOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
   const pathname = usePathname();
-  const router = useRouter();
 
   useEffect(() => {
     setMounted(true);
@@ -42,12 +36,6 @@ export default function Header({ locale }: { locale: string }) {
     { href: "/projelerimiz", label: t("projects") },
     { href: "/iletisim", label: t("contact") },
   ];
-
-  const switchLocale = (newLocale: string) => {
-    const currentPath = pathname.replace(`/${locale}`, "") || "/";
-    router.push(`/${newLocale}${currentPath === "/" ? "" : currentPath}`);
-    setIsLangOpen(false);
-  };
 
   const isActive = (href: string) => {
     const cleanPath = pathname.replace(`/${locale}`, "") || "/";
@@ -77,7 +65,7 @@ export default function Header({ locale }: { locale: string }) {
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src="/images/logo.png"
-                  alt="Emrebaş İnşaat - Kum Ocağı & Hafriyat"
+                  alt="Emrebaş İnşaat - Yozgat Kum Ocağı, Çakıl ve Hafriyat"
                   width={140}
                   height={70}
                   className="object-contain h-auto w-[100px] md:w-[120px] dark:brightness-0 dark:invert"
@@ -110,42 +98,6 @@ export default function Header({ locale }: { locale: string }) {
 
         {/* Right Side */}
         <div className="flex items-center gap-2">
-          {/* Language Switcher */}
-          <div className="relative">
-            <button
-              onClick={() => setIsLangOpen(!isLangOpen)}
-              className={`flex items-center gap-1 px-3 py-2 rounded-lg text-sm font-medium transition-all ${
-                isScrolled
-                  ? "text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-dark-light"
-                  : "text-white/90 hover:bg-white/10"
-              }`}
-            >
-              <Globe size={16} />
-              <span>{localeLabels[locale]}</span>
-              <ChevronDown size={14} />
-            </button>
-            {isLangOpen && (
-              <div
-                className="absolute top-full mt-1 right-0 bg-white dark:bg-dark-light rounded-lg shadow-xl border border-gray-200 dark:border-dark-lighter overflow-hidden min-w-[100px]"
-                style={{ animation: "fadeInDown 0.2s ease-out" }}
-              >
-                {Object.entries(localeLabels).map(([code, label]) => (
-                  <button
-                    key={code}
-                    onClick={() => switchLocale(code)}
-                    className={`block w-full text-left px-4 py-2 text-sm hover:bg-gray-100 dark:hover:bg-dark-lighter transition-colors ${
-                      locale === code
-                        ? "text-accent font-semibold"
-                        : "text-gray-700 dark:text-gray-300"
-                    }`}
-                  >
-                    {label} {code === "tr" ? "Türkçe" : code === "en" ? "English" : "العربية"}
-                  </button>
-                ))}
-              </div>
-            )}
-          </div>
-
           {/* Theme Toggle */}
           {mounted && (
             <button
