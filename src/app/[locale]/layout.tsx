@@ -46,7 +46,7 @@ export async function generateMetadata({
     openGraph: {
       title: t("title"),
       description: t("description"),
-      url: "https://emrebasinsaat.com",
+      url: "https://emrebasinsaat.com/tr",
       siteName: "Emrebaş İnşaat ve Madencilik",
       locale: "tr_TR",
       type: "website",
@@ -66,7 +66,7 @@ export async function generateMetadata({
       images: ["/images/og-image.png"],
     },
     alternates: {
-      canonical: "https://emrebasinsaat.com",
+      canonical: "https://emrebasinsaat.com/tr",
     },
     robots: {
       index: true,

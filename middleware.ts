@@ -4,17 +4,17 @@ import createMiddleware from "next-intl/middleware";
 const intlMiddleware = createMiddleware({
   locales: ["tr"],
   defaultLocale: "tr",
-  localePrefix: "as-needed",
+  localePrefix: "always",
 });
 
 export default function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
-  // 301 redirect for old /en and /ar routes
+  // 301 redirect for old /en and /ar routes to /tr equivalent
   if (pathname.startsWith("/en") || pathname.startsWith("/ar")) {
-    const newPath = pathname.replace(/^\/(en|ar)/, "") || "/";
+    const remainingPath = pathname.replace(/^\/(en|ar)/, "");
     const url = request.nextUrl.clone();
-    url.pathname = newPath;
+    url.pathname = `/tr${remainingPath}`;
     return NextResponse.redirect(url, 301);
   }
 

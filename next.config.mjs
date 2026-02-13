@@ -15,22 +15,22 @@ const nextConfig = {
   redirects: async () => [
     {
       source: "/en",
-      destination: "/",
+      destination: "/tr",
       permanent: true,
     },
     {
       source: "/en/:path*",
-      destination: "/:path*",
+      destination: "/tr/:path*",
       permanent: true,
     },
     {
       source: "/ar",
-      destination: "/",
+      destination: "/tr",
       permanent: true,
     },
     {
       source: "/ar/:path*",
-      destination: "/:path*",
+      destination: "/tr/:path*",
       permanent: true,
     },
   ],

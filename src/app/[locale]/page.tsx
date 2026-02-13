@@ -2,7 +2,7 @@ import { unstable_setRequestLocale, getTranslations } from "next-intl/server";
 import type { Metadata } from "next";
 import HomeClient from "./HomeClient";
 
-const baseUrl = "https://emrebasinsaat.com";
+const baseUrl = "https://emrebasinsaat.com/tr";
 
 export async function generateMetadata({
   params: { locale },
