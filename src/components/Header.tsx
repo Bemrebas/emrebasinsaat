@@ -34,6 +34,7 @@ export default function Header({ locale }: { locale: string }) {
     { href: "/hizmetlerimiz", label: t("services") },
     { href: "/urunlerimiz", label: t("products") },
     { href: "/projelerimiz", label: t("projects") },
+    { href: "/blog", label: "Blog" },
     { href: "/iletisim", label: t("contact") },
   ];
 

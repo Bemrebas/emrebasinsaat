@@ -53,6 +53,7 @@ export default function Footer() {
                 { href: "/urunlerimiz", label: nav("products") },
 
                 { href: "/projelerimiz", label: nav("projects") },
+                { href: "/blog", label: "Blog" },
               ].map((link) => (
                 <li key={link.href}>
                   <Link
