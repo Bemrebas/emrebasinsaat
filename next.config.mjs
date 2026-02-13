@@ -12,6 +12,28 @@ const nextConfig = {
   compress: true,
   poweredByHeader: false,
   reactStrictMode: true,
+  redirects: async () => [
+    {
+      source: "/en",
+      destination: "/",
+      permanent: true,
+    },
+    {
+      source: "/en/:path*",
+      destination: "/:path*",
+      permanent: true,
+    },
+    {
+      source: "/ar",
+      destination: "/",
+      permanent: true,
+    },
+    {
+      source: "/ar/:path*",
+      destination: "/:path*",
+      permanent: true,
+    },
+  ],
   headers: async () => [
     {
       source: "/(.*)",
